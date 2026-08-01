@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Состав | Медицинский Корпус Конохи</title>
+    <meta name="description" content="Состав медицинского корпуса Конохи.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ===== PRELOADER ===== -->
+    <div class="preloader" id="preloader">
+        <div class="preloader__cross"></div>
+        <div class="preloader__ecg">
+            <svg class="preloader__ecg-line" viewBox="0 0 200 50" preserveAspectRatio="none">
+                <path d="M0,25 L30,25 L40,25 L45,10 L55,40 L65,15 L75,25 L100,25 L110,25 L115,15 L125,35 L135,25 L160,25 L170,25 L175,20 L185,30 L200,25" />
+            </svg>
+        </div>
+        <div class="preloader__title">МедКорпус Конохи</div>
+        <div class="preloader__subtitle">医療部隊</div>
+        <div class="preloader__dots">
+            <span class="preloader__dot"></span>
+            <span class="preloader__dot"></span>
+            <span class="preloader__dot"></span>
+        </div>
+    </div>
+
+    <header class="header">
+        <nav class="nav">
+            <a href="index.html" class="nav__logo">
+                <div class="nav__logo-icon">
+                    <i class="fas fa-plus"></i>
+                </div>
+                <span>МедКорпус Конохи</span>
+            </a>
+            <button class="nav__toggle" aria-label="Меню">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav__links">
+                <li><a href="index.html" class="nav__link">Главная</a></li>
+                <li><a href="sostav.html" class="nav__link active">Состав</a></li>
+                <li><a href="tehniki.html" class="nav__link">Техники</a></li>
+                <li><a href="reglamenty.html" class="nav__link">Регламенты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="page-header">
+        <h1 class="page-header__title">
+            <i class="fas fa-users"></i> Состав
+        </h1>
+        <p class="page-header__subtitle">Структура и состав медицинского корпуса Конохи</p>
+    </div>
+
+    <section class="section">
+
+        <!-- ===== РУКОВОДСТВО ===== -->
+        <div class="composition-section fade-in">
+            <h2 class="section__title">
+                <i class="fas fa-crown section__title-icon"></i>
+                Руководство
+            </h2>
+            <p class="section__subtitle">Глава и заместитель медицинского корпуса</p>
+
+            <div class="leadership-grid">
+                <div class="leadership-card"
+                     data-name="Хэби Хьюга"
+                     data-rank="Глав Врач"
+                     data-position="Глав Врач Больницы Листа"
+                     data-kanji="院長"
+                     data-clan="Хьюга"
+                     data-discord="jdhjudas">
+                    <div class="leadership-card__icon">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                    <div class="leadership-card__role">Глава Медицинского Корпуса</div>
+                    <div class="leadership-card__name">Хэби Хьюга</div>
+                    <div class="leadership-card__kanji">院長</div>
+                </div>
+
+                <div class="leadership-card"
+                     data-name="Хитанами Учиха"
+                     data-rank="Заместитель Глав Врача"
+                     data-position="Второй врач Конохи"
+                     data-kanji="副院長"
+                     data-clan="Учиха"
+                     data-discord="yarik09723">
+                    <div class="leadership-card__icon">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <div class="leadership-card__role">Заместитель Главы</div>
+                    <div class="leadership-card__name">Хитанами Учиха</div>
+                    <div class="leadership-card__kanji">副院長</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== ОСНОВНОЙ СОСТАВ ===== -->
+        <div class="composition-section fade-in">
+            <div class="scroll-container">
+                <span class="scroll-ornament scroll-ornament--tl">巻物</span>
+                <span class="scroll-ornament scroll-ornament--tr">医者</span>
+                <span class="scroll-ornament scroll-ornament--bl">部隊</span>
+                <span class="scroll-ornament scroll-ornament--br">名簿</span>
+
+                <div class="table-header">
+                    <h3 class="table-header__title">
+                        <i class="fas fa-notes-medical"></i>
+                        Основной состав
+                    </h3>
+                    <span class="table-header__count">
+                        <i class="fas fa-users"></i> 11 / 20 мест
+                    </span>
+                </div>
+
+                <div class="table-container">
+                    <table class="composition-table">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Имя</th>
+                                <th>Должность</th>
+                                <th>Статус</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr data-name="Широ Куро" data-rank="Интерн" data-position="Нет" data-clan="Нет" data-note="" data-discord="mrvolt0_0">
+                                <td><span class="table-num">1</span></td>
+                                <td><span class="table-name">Широ Куро</span></td>
+                                <td><span class="spec-badge intern">Интерн</span></td>
+                                <td><span class="status-badge active"><i class="fas fa-circle"></i> Активен</span></td>
+                            </tr>
+                            <tr data-name="Касуми Хьюга" data-rank="Медик" data-position="Хирург" data-clan="Хьюга" data-note="" data-discord="kasumi4">
+                                <td><span class="table-num">2</span></td>
+                                <td><span class="table-name">Касуми Хьюга</span></td>
+                                <td><span class="spec-badge">Медик</span> <span class="spec-badge surgeon">Хирург</span> <span class="spec-badge" style="background: rgba(255, 215, 0, 0.1); color: #ffd700; border-color: rgba(255, 215, 0, 0.15);">Скальпель</span></td>
+                                <td><span class="status-badge active"><i class="fas fa-circle"></i> Активен</span></td>
+                            </tr>
+                            <tr data-name="Иноске Аматсуками" data-rank="Интерн" data-position="Нет" data-clan="Нет" data-note="" data-discord="chakk">
+                                <td><span class="table-num">3</span></td>
+                                <td><span class="table-name">Иноске Аматсуками</span></td>
+                                <td><span class="spec-badge intern">Интерн</span></td>
+                                <td><span class="status-badge active"><i class="fas fa-circle"></i> Активен</span></td>
+                            </tr>
+                            <tr data-name="Добби Сенджу" data-rank="Медик" data-position="ВРИО Фармацевта" data-clan="Сенджу" data-note="" data-discord="czsiq">
+                                <td><span class="table-num">4</span></td>
+                                <td><span class="table-name">Добби Сенджу</span></td>
+                                <td><span class="spec-badge">Медик</span> <span class="spec-badge" style="background: rgba(129, 199, 132, 0.15); color: #81c784; border-color: rgba(129, 199, 132, 0.2);">Фармацевт</span> <span class="spec-badge" style="background: rgba(255, 215, 0, 0.1); color: #ffd700; border-color: rgba(255, 215, 0, 0.15);">Скальпель</span></td>
+                                <td><span class="status-badge active"><i class="fas fa-circle"></i> Активен</span></td>
+                            </tr>
+                            <tr data-name="Шикадзин Нара" data-rank="Медик" data-position="Хирург" data-clan="Нара" data-note="" data-discord="yadomy">
+                                <td><span class="table-num">5</span></td>
+                                <td><span class="table-name">Шикадзин Нара</span></td>
+                                <td><span class="spec-badge">Медик</span> <span class="spec-badge surgeon">Хирург</span> <span class="spec-badge" style="background: rgba(255, 215, 0, 0.1); color: #ffd700; border-color: rgba(255, 215, 0, 0.15);">Скальпель</span></td>
+                                <td><span class="status-badge active"><i class="fas fa-circle"></i> Активен</span></td>
+                            </tr>
+                            <tr data-name="Асука Хьюга" data-rank="Интерн" data-position="Нет" data-clan="Хьюга" data-note="" data-discord="dora_fan_love">
+                                <td><span class="table-num">6</span></td>
+                                <td><span class="table-name">Асука Хьюга</span></td>
+                                <td><span class="spec-badge intern">Интерн</span></td>
+                                <td><span class="status-badge active"><i class="fas fa-circle"></i> Активен</span></td>
+                            </tr>
+                            <tr data-name="Карасу Хьюга" data-rank="Интерн" data-position="Нет" data-clan="Хьюга" data-note="" data-discord="faraadei">
+                                <td><span class="table-num">7</span></td>
+                                <td><span class="table-name">Карасу Хьюга</span></td>
+                                <td><span class="spec-badge intern">Интерн</span> <span class="spec-badge" style="background: rgba(206, 147, 216, 0.1); color: #ce93d8; border-color: rgba(206, 147, 216, 0.15);">Тайджутсу</span></td>
+                                <td><span class="status-badge active"><i class="fas fa-circle"></i> Активен</span></td>
+                            </tr>
+                            <tr data-name="Узуй Нара" data-rank="Интерн" data-position="Нет" data-clan="Нара" data-note="" data-discord="pavsilvalt">
+                                <td><span class="table-num">8</span></td>
+                                <td><span class="table-name">Узуй Нара</span></td>
+                                <td><span class="spec-badge intern">Интерн</span></td>
+                                <td><span class="status-badge active"><i class="fas fa-circle"></i> Активен</span></td>
+                            </tr>
+                            <tr data-name="Рю Сэнджу" data-rank="Интерн" data-position="Капитан Военной Полиции" data-clan="Сенджу" data-note="Знает только оказание первой помощи" data-discord="goodrood">
+                                <td><span class="table-num">9</span></td>
+                                <td><span class="table-name">Рю Сэнджу</span></td>
+                                <td><span class="spec-badge intern">Интерн</span> <span class="spec-badge" style="background: rgba(255, 87, 34, 0.1); color: #ff5722; border-color: rgba(255, 87, 34, 0.15);">Капитан ВП</span></td>
+                                <td><span class="status-badge active"><i class="fas fa-circle"></i> Активен</span></td>
+                            </tr>
+                            <tr data-name="Сейдо Учиха" data-rank="Интерн" data-position="Глава Клана Учиха" data-clan="Учиха" data-note="" data-discord="itnowornevermore">
+                                <td><span class="table-num">10</span></td>
+                                <td><span class="table-name">Сейдо Учиха</span></td>
+                                <td><span class="spec-badge intern">Интерн</span> <span class="spec-badge" style="background: rgba(255, 87, 34, 0.1); color: #ff5722; border-color: rgba(255, 87, 34, 0.15);">Глава Клана</span></td>
+                                <td><span class="status-badge active"><i class="fas fa-circle"></i> Активен</span></td>
+                            </tr>
+                            <tr data-name="Чобито Гай" data-rank="Интерн" data-position="Нет" data-clan="Нет" data-note="" data-discord="cho0pp3r">
+                                <td><span class="table-num">11</span></td>
+                                <td><span class="table-name">Чобито Гай</span></td>
+                                <td><span class="spec-badge intern">Интерн</span></td>
+                                <td><span class="status-badge active"><i class="fas fa-circle"></i> Активен</span></td>
+                            </tr>
+                            <tr class="vacant-row">
+                                <td><span class="table-num">12</span></td>
+                                <td><span class="table-name">—</span></td>
+                                <td><span class="spec-badge" style="background: transparent; color: var(--text-muted); border: 1px dashed rgba(255,255,255,0.08);">—</span></td>
+                                <td><span class="status-badge vacant"><i class="fas fa-clock"></i> Вакансия</span></td>
+                            </tr>
+                            <tr class="vacant-row">
+                                <td><span class="table-num">13</span></td>
+                                <td><span class="table-name">—</span></td>
+                                <td><span class="spec-badge" style="background: transparent; color: var(--text-muted); border: 1px dashed rgba(255,255,255,0.08);">—</span></td>
+                                <td><span class="status-badge vacant"><i class="fas fa-clock"></i> Вакансия</span></td>
+                            </tr>
+                            <tr class="vacant-row">
+                                <td><span class="table-num">14</span></td>
+                                <td><span class="table-name">—</span></td>
+                                <td><span class="spec-badge" style="background: transparent; color: var(--text-muted); border: 1px dashed rgba(255,255,255,0.08);">—</span></td>
+                                <td><span class="status-badge vacant"><i class="fas fa-clock"></i> Вакансия</span></td>
+                            </tr>
+                            <tr class="vacant-row">
+                                <td><span class="table-num">15</span></td>
+                                <td><span class="table-name">—</span></td>
+                                <td><span class="spec-badge" style="background: transparent; color: var(--text-muted); border: 1px dashed rgba(255,255,255,0.08);">—</span></td>
+                                <td><span class="status-badge vacant"><i class="fas fa-clock"></i> Вакансия</span></td>
+                            </tr>
+                            <tr class="vacant-row">
+                                <td><span class="table-num">16</span></td>
+                                <td><span class="table-name">—</span></td>
+                                <td><span class="spec-badge" style="background: transparent; color: var(--text-muted); border: 1px dashed rgba(255,255,255,0.08);">—</span></td>
+                                <td><span class="status-badge vacant"><i class="fas fa-clock"></i> Вакансия</span></td>
+                            </tr>
+                            <tr class="vacant-row">
+                                <td><span class="table-num">17</span></td>
+                                <td><span class="table-name">—</span></td>
+                                <td><span class="spec-badge" style="background: transparent; color: var(--text-muted); border: 1px dashed rgba(255,255,255,0.08);">—</span></td>
+                                <td><span class="status-badge vacant"><i class="fas fa-clock"></i> Вакансия</span></td>
+                            </tr>
+                            <tr class="vacant-row">
+                                <td><span class="table-num">18</span></td>
+                                <td><span class="table-name">—</span></td>
+                                <td><span class="spec-badge" style="background: transparent; color: var(--text-muted); border: 1px dashed rgba(255,255,255,0.08);">—</span></td>
+                                <td><span class="status-badge vacant"><i class="fas fa-clock"></i> Вакансия</span></td>
+                            </tr>
+                            <tr class="vacant-row">
+                                <td><span class="table-num">19</span></td>
+                                <td><span class="table-name">—</span></td>
+                                <td><span class="spec-badge" style="background: transparent; color: var(--text-muted); border: 1px dashed rgba(255,255,255,0.08);">—</span></td>
+                                <td><span class="status-badge vacant"><i class="fas fa-clock"></i> Вакансия</span></td>
+                            </tr>
+                            <tr class="vacant-row">
+                                <td><span class="table-num">20</span></td>
+                                <td><span class="table-name">—</span></td>
+                                <td><span class="spec-badge" style="background: transparent; color: var(--text-muted); border: 1px dashed rgba(255,255,255,0.08);">—</span></td>
+                                <td><span class="status-badge vacant"><i class="fas fa-clock"></i> Вакансия</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== ВЛАДЕЛЬЦЫ ТЕХНИКИ СКАЛЬПЕЛЯ ===== -->
+        <div class="composition-section fade-in">
+            <div class="scroll-container">
+                <span class="scroll-ornament scroll-ornament--tl">外科</span>
+                <span class="scroll-ornament scroll-ornament--tr">手術</span>
+                <span class="scroll-ornament scroll-ornament--bl">技術</span>
+                <span class="scroll-ornament scroll-ornament--br">一覧</span>
+
+                <div class="table-header">
+                    <h3 class="table-header__title">
+                        <i class="fas fa-scalpel"></i>
+                        Владельцы Техники Скальпеля
+                    </h3>
+                    <span class="table-header__count">
+                        <i class="fas fa-users"></i> 5 / 10 мест
+                    </span>
+                </div>
+
+                <div class="table-container skills-table">
+                    <table class="composition-table">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Имя</th>
+                                <th>Статус</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr data-name="Хэби Хьюга" data-rank="Глав Врач" data-position="Глав Врач Больницы Листа" data-clan="Хьюга" data-note="" data-discord="jdhjudas">
+                                <td><span class="table-num">1</span></td>
+                                <td><span class="table-name">Хэби Хьюга</span></td>
+                                <td><span class="status-badge active"><i class="fas fa-circle"></i> Активен</span></td>
+                            </tr>
+                            <tr data-name="Хитанами Учиха" data-rank="Заместитель Глав Врача" data-position="Второй врач Конохи" data-clan="Учиха" data-note="" data-discord="yarik09723">
+                                <td><span class="table-num">2</span></td>
+                                <td><span class="table-name">Хитанами Учиха</span></td>
+                                <td><span class="status-badge active"><i class="fas fa-circle"></i> Активен</span></td>
+                            </tr>
+                            <tr data-name="Касуми Хьюга" data-rank="Медик" data-position="Хирург" data-clan="Хьюга" data-note="" data-discord="kasumi4">
+                                <td><span class="table-num">3</span></td>
+                                <td><span class="table-name">Касуми Хьюга</span></td>
+                                <td><span class="status-badge active"><i class="fas fa-circle"></i> Активен</span></td>
+                            </tr>
+                            <tr data-name="Добби Сэнджу" data-rank="Медик" data-position="ВРИО Фармацевта" data-clan="Сенджу" data-note="" data-discord="czsiq">
+                                <td><span class="table-num">4</span></td>
+                                <td><span class="table-name">Добби Сэнджу</span></td>
+                                <td><span class="status-badge active"><i class="fas fa-circle"></i> Активен</span></td>
+                            </tr>
+                            <tr data-name="Шикадзин Нара" data-rank="Медик" data-position="Хирург" data-clan="Нара" data-note="" data-discord="yadomy">
+                                <td><span class="table-num">5</span></td>
+                                <td><span class="table-name">Шикадзин Нара</span></td>
+                                <td><span class="status-badge active"><i class="fas fa-circle"></i> Активен</span></td>
+                            </tr>
+                            <tr class="vacant-row">
+                                <td><span class="table-num">6</span></td>
+                                <td><span class="table-name">—</span></td>
+                                <td><span class="status-badge vacant"><i class="fas fa-clock"></i> Вакансия</span></td>
+                            </tr>
+                            <tr class="vacant-row">
+                                <td><span class="table-num">7</span></td>
+                                <td><span class="table-name">—</span></td>
+                                <td><span class="status-badge vacant"><i class="fas fa-clock"></i> Вакансия</span></td>
+                            </tr>
+                            <tr class="vacant-row">
+                                <td><span class="table-num">8</span></td>
+                                <td><span class="table-name">—</span></td>
+                                <td><span class="status-badge vacant"><i class="fas fa-clock"></i> Вакансия</span></td>
+                            </tr>
+                            <tr class="vacant-row">
+                                <td><span class="table-num">9</span></td>
+                                <td><span class="table-name">—</span></td>
+                                <td><span class="status-badge vacant"><i class="fas fa-clock"></i> Вакансия</span></td>
+                            </tr>
+                            <tr class="vacant-row">
+                                <td><span class="table-num">10</span></td>
+                                <td><span class="table-name">—</span></td>
+                                <td><span class="status-badge vacant"><i class="fas fa-clock"></i> Вакансия</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== ВЛАДЕЮЩИЕ МЕДИЦИНСКИМ ТАЙДЖУТСУ ===== -->
+        <div class="composition-section fade-in">
+            <div class="scroll-container">
+                <span class="scroll-ornament scroll-ornament--tl">体術</span>
+                <span class="scroll-ornament scroll-ornament--tr">医療</span>
+                <span class="scroll-ornament scroll-ornament--bl">達人</span>
+                <span class="scroll-ornament scroll-ornament--br">録</span>
+
+                <div class="table-header">
+                    <h3 class="table-header__title">
+                        <i class="fas fa-fist-raised"></i>
+                        Владеющие Медицинским Тайджутсу
+                    </h3>
+                    <span class="table-header__count">
+                        <i class="fas fa-users"></i> 3 / 10 мест
+                    </span>
+                </div>
+
+                <div class="table-container skills-table">
+                    <table class="composition-table">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Имя</th>
+                                <th>Статус</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr data-name="Хэби Хьюга" data-rank="Глав Врач" data-position="Глав Врач Больницы Листа" data-clan="Хьюга" data-note="" data-discord="jdhjudas">
+                                <td><span class="table-num">1</span></td>
+                                <td><span class="table-name">Хэби Хьюга</span></td>
+                                <td><span class="status-badge active"><i class="fas fa-circle"></i> Активен</span></td>
+                            </tr>
+                            <tr data-name="Хитанами Учиха" data-rank="Заместитель Глав Врача" data-position="Второй врач Конохи" data-clan="Учиха" data-note="" data-discord="yarik09723">
+                                <td><span class="table-num">2</span></td>
+                                <td><span class="table-name">Хитанами Учиха</span></td>
+                                <td><span class="status-badge active"><i class="fas fa-circle"></i> Активен</span></td>
+                            </tr>
+                            <tr data-name="Карасу Хьюга" data-rank="Интерн" data-position="Нет" data-clan="Хьюга" data-note="" data-discord="faraadei">
+                                <td><span class="table-num">3</span></td>
+                                <td><span class="table-name">Карасу Хьюга</span></td>
+                                <td><span class="status-badge active"><i class="fas fa-circle"></i> Активен</span></td>
+                            </tr>
+                            <tr class="vacant-row">
+                                <td><span class="table-num">4</span></td>
+                                <td><span class="table-name">—</span></td>
+                                <td><span class="status-badge vacant"><i class="fas fa-clock"></i> Вакансия</span></td>
+                            </tr>
+                            <tr class="vacant-row">
+                                <td><span class="table-num">5</span></td>
+                                <td><span class="table-name">—</span></td>
+                                <td><span class="status-badge vacant"><i class="fas fa-clock"></i> Вакансия</span></td>
+                            </tr>
+                            <tr class="vacant-row">
+                                <td><span class="table-num">6</span></td>
+                                <td><span class="table-name">—</span></td>
+                                <td><span class="status-badge vacant"><i class="fas fa-clock"></i> Вакансия</span></td>
+                            </tr>
+                            <tr class="vacant-row">
+                                <td><span class="table-num">7</span></td>
+                                <td><span class="table-name">—</span></td>
+                                <td><span class="status-badge vacant"><i class="fas fa-clock"></i> Вакансия</span></td>
+                            </tr>
+                            <tr class="vacant-row">
+                                <td><span class="table-num">8</span></td>
+                                <td><span class="table-name">—</span></td>
+                                <td><span class="status-badge vacant"><i class="fas fa-clock"></i> Вакансия</span></td>
+                            </tr>
+                            <tr class="vacant-row">
+                                <td><span class="table-num">9</span></td>
+                                <td><span class="table-name">—</span></td>
+                                <td><span class="status-badge vacant"><i class="fas fa-clock"></i> Вакансия</span></td>
+                            </tr>
+                            <tr class="vacant-row">
+                                <td><span class="table-num">10</span></td>
+                                <td><span class="table-name">—</span></td>
+                                <td><span class="status-badge vacant"><i class="fas fa-clock"></i> Вакансия</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== РЕКРУТИНГ ===== -->
+        <div class="recruit fade-in">
+            <h2><i class="fas fa-handshake"></i> Хочешь вступить в корпус?</h2>
+            <p>Мы всегда рады новым медикам! Подай заявку и присоединяйся к Медицинскому Корпусу Конохи.</p>
+            <a href="#" class="recruit__btn">Подать заявку</a>
+        </div>
+
+    </section>
+
+    <!-- ===== MODAL ===== -->
+    <div class="modal-overlay" id="memberModal">
+        <div class="modal">
+            <button class="modal__close" id="modalClose">&times;</button>
+            <div class="modal__avatar">
+                <i class="fas fa-user-ninja"></i>
+            </div>
+            <div class="modal__name" id="modalName">—</div>
+            <div class="modal__kanji" id="modalKanji">—</div>
+            <div class="modal__divider"></div>
+            <div class="modal__info">
+                <div class="modal__info-row">
+                    <i class="fas fa-tag"></i>
+                    <strong>Ранг:</strong>
+                    <span id="modalRank">—</span>
+                </div>
+                <div class="modal__info-row">
+                    <i class="fas fa-briefcase"></i>
+                    <strong>Должность:</strong>
+                    <span id="modalPosition">—</span>
+                </div>
+                <div class="modal__info-row">
+                    <i class="fas fa-users"></i>
+                    <strong>Клан:</strong>
+                    <span id="modalClan">—</span>
+                </div>
+                <div class="modal__info-row" id="modalNoteRow" style="display: none;">
+                    <i class="fas fa-sticky-note"></i>
+                    <strong>Заметка:</strong>
+                    <span id="modalNote">—</span>
+                </div>
+                <div class="modal__info-row">
+                    <i class="fas fa-shield-alt"></i>
+                    <strong>Статус:</strong>
+                    <span id="modalStatus" style="color: var(--accent-glow);">Активен</span>
+                </div>
+            </div>
+            <div class="modal__divider"></div>
+            <div class="modal__discord" id="modalDiscord">
+                <i class="fab fa-discord"></i>
+                <span id="modalDiscordName">—</span>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer__inner">
+            <div class="footer__brand">
+                <i class="fas fa-plus" style="color: var(--accent-glow); margin-right: 8px;"></i>
+                Медицинский Корпус Конохи
+            </div>
+            <div class="footer__copy">
+                &copy; 2026 GMod Naruto RP. Все права защищены.
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

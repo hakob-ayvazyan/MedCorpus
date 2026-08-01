@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регламенты | Медицинский Корпус Конохи</title>
+    <meta name="description" content="Регламенты медицинского корпуса Конохи.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ===== PRELOADER ===== -->
+    <div class="preloader" id="preloader">
+        <div class="preloader__cross"></div>
+        <div class="preloader__ecg">
+            <svg class="preloader__ecg-line" viewBox="0 0 200 50" preserveAspectRatio="none">
+                <path d="M0,25 L30,25 L40,25 L45,10 L55,40 L65,15 L75,25 L100,25 L110,25 L115,15 L125,35 L135,25 L160,25 L170,25 L175,20 L185,30 L200,25" />
+            </svg>
+        </div>
+        <div class="preloader__title">МедКорпус Конохи</div>
+        <div class="preloader__subtitle">医療部隊</div>
+        <div class="preloader__dots">
+            <span class="preloader__dot"></span>
+            <span class="preloader__dot"></span>
+            <span class="preloader__dot"></span>
+        </div>
+    </div>
+
+    <header class="header">
+        <nav class="nav">
+            <a href="index.html" class="nav__logo">
+                <div class="nav__logo-icon">
+                    <i class="fas fa-plus"></i>
+                </div>
+                <span>МедКорпус Конохи</span>
+            </a>
+            <button class="nav__toggle" aria-label="Меню">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav__links">
+                <li><a href="index.html" class="nav__link">Главная</a></li>
+                <li><a href="sostav.html" class="nav__link">Состав</a></li>
+                <li><a href="tehniki.html" class="nav__link">Техники</a></li>
+                <li><a href="reglamenty.html" class="nav__link active">Регламенты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="page-header">
+        <h1 class="page-header__title">
+            <i class="fas fa-file-contract"></i> Регламенты
+        </h1>
+        <p class="page-header__subtitle">Протоколы и правила медицинского корпуса Конохи</p>
+    </div>
+
+    <section class="section">
+        <div class="about fade-in" style="text-align: center;">
+            <h2 class="section__title">
+                <i class="fas fa-scroll section__title-icon"></i> Своды Правил
+            </h2>
+            <p class="section__subtitle">
+                Выберите регламент для просмотра полного текста документа
+            </p>
+
+            <div class="regulations-grid">
+
+                <!-- Общий Свод Правил Больницы Конохи -->
+                <a href="reglament-obshchiy.html" class="regulation-card fade-in">
+                    <div class="regulation-card__icon">
+                        <i class="fas fa-hospital"></i>
+                    </div>
+                    <div class="regulation-card__title">Общий Свод Правил Больницы Конохи</div>
+                    <div class="regulation-card__desc">
+                        Основной документ, регулирующий порядок оказания медицинской помощи, правила поведения, доступ на территорию, обращение с оружием и техниками, а также меры ответственности за нарушения.
+                    </div>
+                    <span class="regulation-card__btn">
+                        Читать регламент <i class="fas fa-arrow-right"></i>
+                    </span>
+                </a>
+
+                <!-- Регламент Проведения Операций -->
+                <a href="reglament-operacii.html" class="regulation-card fade-in">
+                    <div class="regulation-card__icon">
+                        <i class="fas fa-syringe"></i>
+                    </div>
+                    <div class="regulation-card__title">Регламент Проведения Операций</div>
+                    <div class="regulation-card__desc">
+                        Обязательный порядок подготовки, проведения и завершения хирургических операций: подготовка пациента, операционного помещения, инструментов, стерильность, медицинские техники и послеоперационное наблюдение.
+                    </div>
+                    <span class="regulation-card__btn">
+                        Читать регламент <i class="fas fa-arrow-right"></i>
+                    </span>
+                </a>
+
+                <!-- Положение о Службе -->
+                <a href="reglament-sluzhba.html" class="regulation-card fade-in">
+                    <div class="regulation-card__icon">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <div class="regulation-card__title">Положение о Службе</div>
+                    <div class="regulation-card__desc">
+                        Порядок прохождения службы и профессионального развития: этапы пути медицинского шиноби, требования к повышению званий, специализации корпуса и полномочия сотрудников.
+                    </div>
+                    <span class="regulation-card__btn">
+                        Читать регламент <i class="fas fa-arrow-right"></i>
+                    </span>
+                </a>
+
+                <!-- Место для будущих регламентов -->
+                <div class="regulation-card fade-in" style="opacity: 0.5; cursor: default; pointer-events: none;">
+                    <div class="regulation-card__icon" style="background: linear-gradient(135deg, #2a2a2a, #1a1a1a); box-shadow: none;">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <div class="regulation-card__title">Скоро</div>
+                    <div class="regulation-card__desc">
+                        Новые регламенты появятся здесь. Следите за обновлениями Медицинского корпуса.
+                    </div>
+                    <span class="regulation-card__btn" style="background: #2a2a2a; border-color: rgba(255,255,255,0.1);">
+                        В разработке <i class="fas fa-hourglass-half"></i>
+                    </span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__inner">
+            <div class="footer__brand">
+                <i class="fas fa-plus" style="color: var(--accent-glow); margin-right: 8px;"></i>
+                Медицинский Корпус Конохи
+            </div>
+            <div class="footer__copy">
+                &copy; 2026 GMod Naruto RP. Все права защищены.
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

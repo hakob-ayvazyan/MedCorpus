@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Медицинский Корпус Конохи | Konoha Medical Corps</title>
+    <meta name="description" content="GMod Naruto Roleplay — Медицинский корпус Конохи. Информация о сервере, персонале и ирёнин-дзюцу.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ===== PRELOADER ===== -->
+    <div class="preloader" id="preloader">
+        <div class="preloader__cross"></div>
+        <div class="preloader__ecg">
+            <svg class="preloader__ecg-line" viewBox="0 0 200 50" preserveAspectRatio="none">
+                <path d="M0,25 L30,25 L40,25 L45,10 L55,40 L65,15 L75,25 L100,25 L110,25 L115,15 L125,35 L135,25 L160,25 L170,25 L175,20 L185,30 L200,25" />
+            </svg>
+        </div>
+        <div class="preloader__title">МедКорпус Конохи</div>
+        <div class="preloader__subtitle">医療部隊</div>
+        <div class="preloader__dots">
+            <span class="preloader__dot"></span>
+            <span class="preloader__dot"></span>
+            <span class="preloader__dot"></span>
+        </div>
+    </div>
+
+    <!-- ===== HEADER ===== -->
+    <header class="header">
+        <nav class="nav">
+            <a href="index.html" class="nav__logo">
+                <div class="nav__logo-icon">
+                    <i class="fas fa-plus"></i>
+                </div>
+                <span>МедКорпус Конохи</span>
+            </a>
+            <button class="nav__toggle" aria-label="Меню">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav__links">
+                <li><a href="index.html" class="nav__link active">Главная</a></li>
+                <li><a href="sostav.html" class="nav__link">Состав</a></li>
+                <li><a href="tehniki.html" class="nav__link">Техники</a></li>
+                <li><a href="reglamenty.html" class="nav__link">Регламенты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ===== HERO BANNER (чистое изображение) ===== -->
+    <section class="hero">
+        <img src="images/med.png" alt="Медицинский корпус Конохи" class="hero__bg">
+    </section>
+
+    <!-- ===== INFO SEGMENTS ===== -->
+    <section class="section" id="about">
+        <div class="about fade-in">
+            <h2 class="section__title">
+                <i class="fas fa-hospital section__title-icon"></i>
+                О Медицинском Корпусе
+            </h2>
+            <p class="section__subtitle">
+                Элитное подразделение шиноби, посвятивших себя исцелению и защите Конохи
+            </p>
+            <div class="about__grid">
+
+                <!-- 1. Состав -->
+                <a href="sostav.html" class="about__card" style="display: block; text-decoration: none;">
+                    <div class="about__card-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Состав</h3>
+                    <p>В медицинский корпус входят элитные шиноби-медики всех рангов — от интернов до главы корпуса. Каждый член проходит строгий отбор и специализированное обучение. В составе: хирурги, токсикологи, полевые медики, научные исследователи и диагности.</p>
+                </a>
+
+                <!-- 2. Техники Мед Корпуса -->
+                <a href="tehniki.html" class="about__card" style="display: block; text-decoration: none;">
+                    <div class="about__card-icon">
+                        <i class="fas fa-book-medical"></i>
+                    </div>
+                    <h3>Техники Мед Корпуса</h3>
+                    <p>Полный арсенал ирёнин-дзюцу: от базового Сёсэн Дзюцу до легендарных Бякуго но Дзюцу и Содзо Сайсэй. Медики корпуса владеют техниками исцеления, диагностики, хирургии, детоксикации и боевой медицины.</p>
+                </a>
+
+                <!-- 3. Регламенты -->
+                <a href="reglamenty.html" class="about__card" style="display: block; text-decoration: none;">
+                    <div class="about__card-icon">
+                        <i class="fas fa-file-contract"></i>
+                    </div>
+                    <h3>Регламенты</h3>
+                    <p>Деятельность корпуса регулируется строгими протоколами: порядок оказания помощи, иерархия подчинения, правила ведения боевых действий, нормы поведения и этический кодекс медика Конохи.</p>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="footer__inner">
+            <div class="footer__brand">
+                <i class="fas fa-plus" style="color: var(--primary); margin-right: 8px;"></i>
+                Медицинский Корпус Конохи
+            </div>
+            <div class="footer__copy">
+                &copy; 2026 GMod Naruto RP. Все права защищены.
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

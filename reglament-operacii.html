@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регламент Проведения Операций | Медицинский Корпус Конохи</title>
+    <meta name="description" content="Регламент проведения хирургических операций — медицинский корпус Конохи.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ===== PRELOADER ===== -->
+    <div class="preloader" id="preloader">
+        <div class="preloader__cross"></div>
+        <div class="preloader__ecg">
+            <svg class="preloader__ecg-line" viewBox="0 0 200 50" preserveAspectRatio="none">
+                <path d="M0,25 L30,25 L40,25 L45,10 L55,40 L65,15 L75,25 L100,25 L110,25 L115,15 L125,35 L135,25 L160,25 L170,25 L175,20 L185,30 L200,25" />
+            </svg>
+        </div>
+        <div class="preloader__title">МедКорпус Конохи</div>
+        <div class="preloader__subtitle">医療部隊</div>
+        <div class="preloader__dots">
+            <span class="preloader__dot"></span>
+            <span class="preloader__dot"></span>
+            <span class="preloader__dot"></span>
+        </div>
+    </div>
+
+    <header class="header">
+        <nav class="nav">
+            <a href="index.html" class="nav__logo">
+                <div class="nav__logo-icon">
+                    <i class="fas fa-plus"></i>
+                </div>
+                <span>МедКорпус Конохи</span>
+            </a>
+            <button class="nav__toggle" aria-label="Меню">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav__links">
+                <li><a href="index.html" class="nav__link">Главная</a></li>
+                <li><a href="sostav.html" class="nav__link">Состав</a></li>
+                <li><a href="tehniki.html" class="nav__link">Техники</a></li>
+                <li><a href="reglamenty.html" class="nav__link active">Регламенты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="page-header">
+        <h1 class="page-header__title">
+            <i class="fas fa-syringe"></i> Регламент Операций
+        </h1>
+        <p class="page-header__subtitle">Регламент проведения хирургических операций</p>
+    </div>
+
+    <section class="section">
+        <a href="reglamenty.html" class="regulation-back fade-in">
+            <i class="fas fa-arrow-left"></i> К списку регламентов
+        </a>
+
+        <div class="regulation-doc fade-in">
+
+            <!-- Шапка документа -->
+            <div class="regulation-doc__header">
+                <div class="regulation-doc__kanji">手術規則</div>
+                <div class="regulation-doc__title">МЕДИЦИНСКИЙ КОРПУС КОНОХИ</div>
+                <div class="regulation-doc__subtitle">Регламент проведения хирургических операций</div>
+            </div>
+
+            <!-- Эпиграф -->
+            <div class="regulation-doc__epigraph">
+                «Операция начинается не тогда, когда появляется первый разрез. Она начинается с подготовки того, кто держит в руках жизнь другого человека.»
+            </div>
+
+            <!-- Статья I -->
+            <div class="regulation-article">
+                <div class="regulation-article__header">
+                    <span class="regulation-article__num">壱</span>
+                    <span class="regulation-article__title">Статья I. Общие положения</span>
+                </div>
+                <div class="regulation-article__item">
+                    <strong>1.1.</strong> Настоящий регламент устанавливает обязательный порядок подготовки, проведения и завершения хирургических операций на территории Медицинского корпуса.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>1.2.</strong> Регламент обязателен для всех медицинских шиноби, принимающих участие в хирургическом вмешательстве, независимо от их звания, должности или опыта.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>1.3.</strong> Ни один медицинский шиноби не имеет права приступать к операции без надлежащей подготовки пациента, операционного помещения, инструментов и самого медицинского персонала.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>1.4.</strong> Ответственность за соблюдение настоящего регламента несёт старший медицинский шиноби, руководящий операцией.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>1.5.</strong> При возникновении чрезвычайной ситуации допускается отступление от отдельных положений настоящего регламента, если их соблюдение создаёт непосредственную угрозу жизни пациента.
+                </div>
+            </div>
+
+            <!-- Статья II -->
+            <div class="regulation-article">
+                <div class="regulation-article__header">
+                    <span class="regulation-article__num">弐</span>
+                    <span class="regulation-article__title">Статья II. Подготовка пациента</span>
+                </div>
+                <div class="regulation-article__item">
+                    <strong>2.1.</strong> До начала операции медицинский персонал обязан установить личность пациента.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>2.2.</strong> Перед операцией должна быть установлена причина хирургического вмешательства и определён предполагаемый объём операции.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>2.3.</strong> Медицинский шиноби обязан провести первичный осмотр пациента и оценить его состояние.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>2.4.</strong> Перед началом операции необходимо определить наличие у пациента известных аллергических реакций, хронических заболеваний, противопоказаний и иных обстоятельств, способных повлиять на ход операции.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>2.5.</strong> Пациент должен быть подготовлен к хирургическому вмешательству и размещён на операционном месте.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>2.6.</strong> При наличии возможности пациент должен быть проинформирован о характере предстоящей операции и возможных рисках.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>2.7.</strong> Перед началом операции необходимо убедиться, что пациент находится в состоянии, позволяющем провести хирургическое вмешательство.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>2.8.</strong> В случае бессознательного состояния пациента медицинский шиноби обязан действовать исходя из необходимости сохранения его жизни.
+                </div>
+            </div>
+
+            <!-- Статья III -->
+            <div class="regulation-article">
+                <div class="regulation-article__header">
+                    <span class="regulation-article__num">参</span>
+                    <span class="regulation-article__title">Статья III. Подготовка операционного помещения</span>
+                </div>
+                <div class="regulation-article__item">
+                    <strong>3.1.</strong> Перед каждой операцией операционное помещение должно быть проверено на чистоту и готовность к работе.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>3.2.</strong> Рабочая поверхность, операционный стол и используемое оборудование должны быть очищены перед началом операции.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>3.3.</strong> Все ненужные предметы должны быть удалены из операционного помещения.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>3.4.</strong> В операционной должны находиться только лица, непосредственно участвующие в операции, либо лица, присутствие которых разрешено старшим медицинским шиноби.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>3.5.</strong> Посторонним лицам запрещается находиться в операционной во время проведения хирургического вмешательства.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>3.6.</strong> Перед началом операции необходимо проверить наличие необходимых медицинских инструментов, препаратов, перевязочных материалов и средств экстренной помощи.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>3.7.</strong> Каждый инструмент, необходимый для операции, должен быть подготовлен заранее.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>3.8.</strong> Использование повреждённых, загрязнённых или неисправных инструментов запрещается.
+                </div>
+            </div>
+
+            <!-- Статья IV -->
+            <div class="regulation-article">
+                <div class="regulation-article__header">
+                    <span class="regulation-article__num">四</span>
+                    <span class="regulation-article__title">Статья IV. Личная подготовка медицинского персонала</span>
+                </div>
+                <div class="regulation-article__item">
+                    <strong>4.1.</strong> Перед каждой операцией медицинский шиноби обязан тщательно вымыть руки.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>4.2.</strong> Руки должны быть очищены до начала подготовки инструментов и непосредственного контакта с пациентом.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>4.3.</strong> Медицинский шиноби обязан использовать чистую медицинскую одежду и защитные средства, предусмотренные для проведения операции.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>4.4.</strong> Перед началом операции должны быть надеты чистые медицинские перчатки.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>4.5.</strong> Использование грязных, повреждённых или ранее использованных перчаток запрещается.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>4.6.</strong> При повреждении или загрязнении перчаток медицинский шиноби обязан немедленно заменить их.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>4.7.</strong> Медицинский шиноби обязан избегать любого контакта стерильных инструментов и материалов с загрязнёнными поверхностями.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>4.8.</strong> Перед началом операции медицинский персонал обязан убедиться в собственной готовности к проведению хирургического вмешательства.
+                </div>
+            </div>
+
+            <!-- Статья V -->
+            <div class="regulation-article">
+                <div class="regulation-article__header">
+                    <span class="regulation-article__num">伍</span>
+                    <span class="regulation-article__title">Статья V. Подготовка медицинских инструментов</span>
+                </div>
+                <div class="regulation-article__item">
+                    <strong>5.1.</strong> Все инструменты, используемые во время операции, должны быть очищены и подготовлены заранее.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>5.2.</strong> Перед использованием медицинский шиноби обязан убедиться в исправности инструмента.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>5.3.</strong> Инструменты должны храниться таким образом, чтобы исключить их загрязнение до начала операции.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>5.4.</strong> Запрещается использовать инструмент, упавший на загрязнённую поверхность, без предварительной обработки.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>5.5.</strong> Каждый инструмент после использования должен быть передан для очистки и последующей обработки.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>5.6.</strong> Острые инструменты должны использоваться с особой осторожностью во избежание случайного повреждения пациента или медицинского персонала.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>5.7.</strong> После завершения операции все использованные инструменты подлежат обязательной очистке и возвращению на место хранения.
+                </div>
+            </div>
+
+            <!-- Статья VI -->
+            <div class="regulation-article">
+                <div class="regulation-article__header">
+                    <span class="regulation-article__num">六</span>
+                    <span class="regulation-article__title">Статья VI. Начало операции</span>
+                </div>
+                <div class="regulation-article__item">
+                    <strong>6.1.</strong> Перед началом хирургического вмешательства старший медицинский шиноби обязан убедиться в готовности пациента, персонала, инструментов и операционного помещения.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>6.2.</strong> Все участники операции должны знать свои обязанности и порядок действий.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>6.3.</strong> Перед первым хирургическим вмешательством необходимо убедиться в наличии средств для остановки кровотечения и оказания экстренной помощи.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>6.4.</strong> Медицинский шиноби обязан постоянно контролировать состояние пациента во время операции.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>6.5.</strong> Любое неожиданное изменение состояния пациента должно быть немедленно замечено и оценено.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>6.6.</strong> При возникновении осложнений старший медицинский шиноби обязан определить дальнейший порядок действий.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>6.7.</strong> Во время операции запрещается выполнять действия, не связанные с хирургическим вмешательством, если они способны отвлечь медицинский персонал или создать угрозу пациенту.
+                </div>
+            </div>
+
+            <!-- Статья VII -->
+            <div class="regulation-article">
+                <div class="regulation-article__header">
+                    <span class="regulation-article__num">七</span>
+                    <span class="regulation-article__title">Статья VII. Использование медицинских техник</span>
+                </div>
+                <div class="regulation-article__item">
+                    <strong>7.1.</strong> Медицинские техники во время операции должны применяться только медицинскими шиноби, обладающими необходимыми знаниями и навыками.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>7.2.</strong> Медицинский шиноби обязан учитывать состояние пациента перед применением техники.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>7.3.</strong> Запрещается использовать технику, если её применение может причинить пациенту больший вред, чем предполагаемая польза.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>7.4.</strong> При использовании техник необходимо учитывать объём доступной чакры и возможность возникновения осложнений.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>7.5.</strong> Запрещается проводить эксперименты над пациентом во время стандартной хирургической операции без соответствующего разрешения и обоснованной необходимости.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>7.6.</strong> Применение неизвестных, нестабильных или запрещённых техник допускается только в соответствии с отдельным регламентом Медицинского корпуса.
+                </div>
+            </div>
+
+            <!-- Статья VIII -->
+            <div class="regulation-article">
+                <div class="regulation-article__header">
+                    <span class="regulation-article__num">八</span>
+                    <span class="regulation-article__title">Статья VIII. Соблюдение стерильности</span>
+                </div>
+                <div class="regulation-article__item">
+                    <strong>8.1.</strong> Медицинский персонал обязан сохранять чистоту операционного пространства на протяжении всей операции.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>8.2.</strong> Стерильные инструменты и материалы не должны соприкасаться с загрязнёнными поверхностями.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>8.3.</strong> При подозрении на загрязнение инструмента или медицинского материала он должен быть немедленно заменён либо подвергнут соответствующей обработке.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>8.4.</strong> Медицинский шиноби обязан заменить перчатки в случае их повреждения, загрязнения или нарушения стерильности.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>8.5.</strong> Запрещается прикасаться загрязнёнными перчатками к стерильным инструментам и материалам.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>8.6.</strong> При нарушении стерильности операционного поля медицинский персонал обязан немедленно принять меры для восстановления необходимых условий.
+                </div>
+            </div>
+
+            <!-- Статья IX -->
+            <div class="regulation-article">
+                <div class="regulation-article__header">
+                    <span class="regulation-article__num">九</span>
+                    <span class="regulation-article__title">Статья IX. Завершение операции</span>
+                </div>
+                <div class="regulation-article__item">
+                    <strong>9.1.</strong> После завершения хирургического вмешательства медицинский шиноби обязан убедиться в стабильном состоянии пациента.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>9.2.</strong> Перед завершением операции необходимо убедиться в отсутствии продолжающегося кровотечения и иных непосредственных угроз жизни пациента.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>9.3.</strong> Все использованные медицинские материалы и инструменты должны быть проверены и убраны.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>9.4.</strong> Использованные перчатки и одноразовые медицинские материалы должны быть утилизированы установленным порядком.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>9.5.</strong> Медицинские инструменты должны быть очищены и подготовлены для последующей обработки.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>9.6.</strong> Операционное помещение должно быть приведено в надлежащее состояние после каждой операции.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>9.7.</strong> Пациент должен быть перемещён в помещение для дальнейшего наблюдения и восстановления, если его состояние этого требует.
+                </div>
+            </div>
+
+            <!-- Статья X -->
+            <div class="regulation-article">
+                <div class="regulation-article__header">
+                    <span class="regulation-article__num">十</span>
+                    <span class="regulation-article__title">Статья X. Послеоперационное наблюдение</span>
+                </div>
+                <div class="regulation-article__item">
+                    <strong>10.1.</strong> После операции пациент должен находиться под наблюдением медицинского персонала в течение установленного периода.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>10.2.</strong> Медицинский шиноби обязан контролировать состояние пациента и отслеживать возможные осложнения.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>10.3.</strong> При ухудшении состояния пациента медицинский персонал обязан немедленно принять необходимые меры.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>10.4.</strong> Пациенту должны быть сообщены основные требования послеоперационного восстановления.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>10.5.</strong> Пациенту запрещается самостоятельно покидать медицинское учреждение, если его состояние требует дальнейшего наблюдения.
+                </div>
+            </div>
+
+            <!-- Статья XI -->
+            <div class="regulation-article">
+                <div class="regulation-article__header">
+                    <span class="regulation-article__num">十一</span>
+                    <span class="regulation-article__title">Статья XI. Медицинская документация</span>
+                </div>
+                <div class="regulation-article__item">
+                    <strong>11.1.</strong> После каждой операции медицинский шиноби обязан внести сведения о проведённом вмешательстве в медицинскую документацию.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>11.2.</strong> В документации должны быть указаны:
+                </div>
+                <ul class="regulation-article__list">
+                    <li>имя пациента;</li>
+                    <li>причина операции;</li>
+                    <li>проведённые процедуры;</li>
+                    <li>использованные медицинские техники;</li>
+                    <li>возникшие осложнения;</li>
+                    <li>состояние пациента после операции;</li>
+                    <li>имя медицинского шиноби, ответственного за проведение операции.</li>
+                </ul>
+                <div class="regulation-article__item">
+                    <strong>11.3.</strong> Медицинская документация должна храниться в установленном порядке и не может передаваться посторонним лицам без соответствующего разрешения.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>11.4.</strong> Запрещается намеренно изменять, уничтожать или скрывать сведения о проведённой операции.
+                </div>
+            </div>
+
+            <!-- Статья XII -->
+            <div class="regulation-article">
+                <div class="regulation-article__header">
+                    <span class="regulation-article__num">十二</span>
+                    <span class="regulation-article__title">Статья XII. Ответственность</span>
+                </div>
+                <div class="regulation-article__item">
+                    <strong>12.1.</strong> Медицинский шиноби несёт ответственность за соблюдение настоящего регламента в пределах своих обязанностей.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>12.2.</strong> Нарушение правил стерильности, халатное обращение с медицинскими инструментами или сознательное несоблюдение установленных процедур рассматриваются как дисциплинарные нарушения.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>12.3.</strong> Если нарушение привело к причинению вреда пациенту, вопрос о дисциплинарной ответственности рассматривается командованием Медицинского корпуса.
+                </div>
+                <div class="regulation-article__item">
+                    <strong>12.4.</strong> В случае умышленного причинения вреда пациенту материалы дела могут быть переданы в Военную полицию или иные соответствующие органы деревни.
+                </div>
+            </div>
+
+            <!-- Заключение -->
+            <div class="regulation-doc__conclusion">
+                <p>«Руки медицинского шиноби могут держать оружие.</p>
+                <p>Но в операционной они должны помнить лишь об одном —</p>
+                <p>перед ними не враг,</p>
+                <p>не союзник,</p>
+                <p>не преступник</p>
+                <p>и не герой.</p>
+                <p>Перед ними жизнь.</p>
+                <p>И одна ошибка может стать последней.»</p>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__inner">
+            <div class="footer__brand">
+                <i class="fas fa-plus" style="color: var(--accent-glow); margin-right: 8px;"></i>
+                Медицинский Корпус Конохи
+            </div>
+            <div class="footer__copy">
+                &copy; 2026 GMod Naruto RP. Все права защищены.
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

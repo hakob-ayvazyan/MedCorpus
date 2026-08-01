@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Техники Мед Корпуса | Медицинский Корпус Конохи</title>
+    <meta name="description" content="Техники медицинского корпуса Конохи.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ===== PRELOADER ===== -->
+    <div class="preloader" id="preloader">
+        <div class="preloader__cross"></div>
+        <div class="preloader__ecg">
+            <svg class="preloader__ecg-line" viewBox="0 0 200 50" preserveAspectRatio="none">
+                <path d="M0,25 L30,25 L40,25 L45,10 L55,40 L65,15 L75,25 L100,25 L110,25 L115,15 L125,35 L135,25 L160,25 L170,25 L175,20 L185,30 L200,25" />
+            </svg>
+        </div>
+        <div class="preloader__title">МедКорпус Конохи</div>
+        <div class="preloader__subtitle">医療部隊</div>
+        <div class="preloader__dots">
+            <span class="preloader__dot"></span>
+            <span class="preloader__dot"></span>
+            <span class="preloader__dot"></span>
+        </div>
+    </div>
+
+    <header class="header">
+        <nav class="nav">
+            <a href="index.html" class="nav__logo">
+                <div class="nav__logo-icon">
+                    <i class="fas fa-plus"></i>
+                </div>
+                <span>МедКорпус Конохи</span>
+            </a>
+            <button class="nav__toggle" aria-label="Меню">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav__links">
+                <li><a href="index.html" class="nav__link">Главная</a></li>
+                <li><a href="sostav.html" class="nav__link">Состав</a></li>
+                <li><a href="tehniki.html" class="nav__link active">Техники</a></li>
+                <li><a href="reglamenty.html" class="nav__link">Регламенты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="page-header">
+        <h1 class="page-header__title">
+            <i class="fas fa-book-medical"></i> Техники Мед Корпуса
+        </h1>
+        <p class="page-header__subtitle">Арсенал медицинских техник корпуса Конохи</p>
+    </div>
+
+    <section class="section">
+
+        <!-- ===== ОСНОВНЫЕ МЕДИЦИНСКИЕ ===== -->
+        <div class="technique-divider fade-in">
+            <span class="technique-divider__line"></span>
+            <span class="technique-divider__label technique-divider__label--mechanical">
+                <i class="fas fa-notes-medical"></i> Основные медицинские
+            </span>
+            <span class="technique-divider__line"></span>
+        </div>
+
+        <div class="technique-grid">
+
+            <!-- 1. Забота о чакре -->
+            <div class="technique-card fade-in"
+                 data-name="Забота о чакре"
+                 data-name-jp="チャクラケア"
+                 data-type="mechanical"
+                 data-rank="D"
+                 data-desc="Техника, позволяющая инвертировать собственную чакру в лечебную и вливать её в пациента. Такая чакра ускоряет клеточную регенерацию цели и улучшает её физические возможности."
+                 data-details='[{"icon":"fa-bolt","label":"Скейлинг","value":"Ниндзюцу"},{"icon":"fa-star","label":"Ранг","value":"D"},{"icon":"fa-heart","label":"Тип","value":"Лечебная"},{"icon":"fa-hand","label":"Применение","value":"Касание"}]'>
+                <span class="technique-card__type-badge technique-card__type-badge--mechanical">
+                    <i class="fas fa-notes-medical"></i> Медицинская
+                </span>
+                <div class="technique-card__preview">
+                    <img src="images/chakra-care.jpg" alt="Забота о чакре">
+                </div>
+                <div class="technique-card__preview-info">
+                    <div class="technique-card__preview-left">
+                        <div class="technique-card__preview-name">Забота о чакре</div>
+                        <span class="technique-card__preview-name-jp">チャクラケア</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2. Мягкое извлечение -->
+            <div class="technique-card fade-in"
+                 data-name="Мягкое извлечение"
+                 data-name-jp="柔和抽出"
+                 data-type="mechanical"
+                 data-rank="C"
+                 data-desc="С помощью раскрытия каналов чакры пациента выводит из него все яды и устраняет негативные эффекты, влияющие на здоровье."
+                 data-details='[{"icon":"fa-bolt","label":"Скейлинг","value":"Нет"},{"icon":"fa-star","label":"Ранг","value":"C"},{"icon":"fa-heart","label":"Тип","value":"Лечебная"},{"icon":"fa-shield-halved","label":"Эффект","value":"Очищение"}]'>
+                <span class="technique-card__type-badge technique-card__type-badge--mechanical">
+                    <i class="fas fa-notes-medical"></i> Медицинская
+                </span>
+                <div class="technique-card__preview">
+                    <img src="images/soft-extraction.jpg" alt="Мягкое извлечение">
+                </div>
+                <div class="technique-card__preview-info">
+                    <div class="technique-card__preview-left">
+                        <div class="technique-card__preview-name">Мягкое извлечение</div>
+                        <span class="technique-card__preview-name-jp">柔和抽出</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3. Паралич (Мед Стан) -->
+            <div class="technique-card fade-in"
+                 data-name="Паралич (Мед Стан)"
+                 data-name-jp="麻痺"
+                 data-type="mechanical"
+                 data-rank="B"
+                 data-desc="Собирая чакру в ладонях с помощью концентрации, пользователь направляет её касанием на оппонента, вызывая судорогу мышц и частичный паралич."
+                 data-details='[{"icon":"fa-bolt","label":"Скейлинг","value":"Ниндзюцу"},{"icon":"fa-star","label":"Ранг","value":"B"},{"icon":"fa-fist-raised","label":"Тип","value":"Боевая"},{"icon":"fa-hand","label":"Применение","value":"Касание"}]'>
+                <span class="technique-card__type-badge technique-card__type-badge--mechanical">
+                    <i class="fas fa-notes-medical"></i> Медицинская
+                </span>
+                <div class="technique-card__preview">
+                    <img src="images/paralysis.jpg" alt="Паралич (Мед Стан)">
+                </div>
+                <div class="technique-card__preview-info">
+                    <div class="technique-card__preview-left">
+                        <div class="technique-card__preview-name">Паралич (Мед Стан)</div>
+                        <span class="technique-card__preview-name-jp">麻痺</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4. Ядовитое облако -->
+            <div class="technique-card fade-in"
+                 data-name="Ядовитое облако"
+                 data-name-jp="毒雲"
+                 data-type="mechanical"
+                 data-rank="B"
+                 data-desc="Собирая чакру в лёгких, пользователь инвертирует её в Инь-чакру, превращая в облако яда. При вдыхании противник отравляется. Яд не опасен для пользователя и, напротив, имеет слабый лечебный эффект."
+                 data-details='[{"icon":"fa-bolt","label":"Скейлинг","value":"Ниндзюцу"},{"icon":"fa-star","label":"Ранг","value":"B"},{"icon":"fa-skull","label":"Тип","value":"Боевая / Лечебная"},{"icon":"fa-lungs","label":"Применение","value":"Дыхание"}]'>
+                <span class="technique-card__type-badge technique-card__type-badge--mechanical">
+                    <i class="fas fa-notes-medical"></i> Медицинская
+                </span>
+                <div class="technique-card__preview">
+                    <img src="images/poison-cloud.jpg" alt="Ядовитое облако">
+                </div>
+                <div class="technique-card__preview-info">
+                    <div class="technique-card__preview-left">
+                        <div class="technique-card__preview-name">Ядовитое облако</div>
+                        <span class="technique-card__preview-name-jp">毒雲</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 5. Мистическая ладонь -->
+            <div class="technique-card fade-in"
+                 data-name="Мистическая ладонь"
+                 data-name-jp="神秘の掌"
+                 data-type="mechanical"
+                 data-rank="C"
+                 data-desc="Канализируя Янь-чакру в ладони, создаёт область вокруг руки, которая при соприкосновении с пациентом оказывает сильный лечащий эффект за счёт ускорения клеточной регенерации и кровообращения. Критически ускоряет кровотечение открытых ран. Имеет инверсивную версию в ролевом формате."
+                 data-details='[{"icon":"fa-bolt","label":"Скейлинг","value":"Ниндзюцу"},{"icon":"fa-star","label":"Ранг","value":"C"},{"icon":"fa-heart","label":"Тип","value":"Лечебная"},{"icon":"fa-hand","label":"Применение","value":"Касание"}]'>
+                <span class="technique-card__type-badge technique-card__type-badge--mechanical">
+                    <i class="fas fa-notes-medical"></i> Медицинская
+                </span>
+                <div class="technique-card__preview">
+                    <img src="images/mystic-palm.jpg" alt="Мистическая ладонь">
+                </div>
+                <div class="technique-card__preview-info">
+                    <div class="technique-card__preview-left">
+                        <div class="technique-card__preview-name">Мистическая ладонь</div>
+                        <span class="technique-card__preview-name-jp">神秘の掌</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 6. Стимуляция клеток -->
+            <div class="technique-card fade-in"
+                 data-name="Стимуляция клеток"
+                 data-name-jp="細胞刺激"
+                 data-type="mechanical"
+                 data-rank="X"
+                 data-desc="Сложив печать, высвобождает вокруг себя волну чакры, воздействующую на психику находящихся рядом людей, делая их внимательнее и бодрее. Добавляет 10% к получаемому опыту на 45 секунд."
+                 data-details='[{"icon":"fa-bolt","label":"Скейлинг","value":"Нет"},{"icon":"fa-star","label":"Ранг","value":"X"},{"icon":"fa-cogs","label":"Тип","value":"Утилитарная"},{"icon":"fa-clock","label":"Длит.","value":"45с"}]'>
+                <span class="technique-card__type-badge technique-card__type-badge--mechanical">
+                    <i class="fas fa-notes-medical"></i> Медицинская
+                </span>
+                <div class="technique-card__preview">
+                    <img src="images/cell-stimulation.jpg" alt="Стимуляция клеток">
+                </div>
+                <div class="technique-card__preview-info">
+                    <div class="technique-card__preview-left">
+                        <div class="technique-card__preview-name">Стимуляция клеток</div>
+                        <span class="technique-card__preview-name-jp">細胞刺激</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 7. Нарушающий удар -->
+            <div class="technique-card fade-in"
+                 data-name="Нарушающий удар"
+                 data-name-jp="破壊的打撃"
+                 data-type="mechanical"
+                 data-rank="X"
+                 data-desc="Усиленная версия «Паралича». Удар канализирует чакру пользователя в чакру врага, сбивая его ритм. Тело парализует на продолжительный период. После шока противник ещё некоторое время слабее и получает больше урона из-за заниженного болевого порога."
+                 data-details='[{"icon":"fa-bolt","label":"Скейлинг","value":"Ниндзюцу"},{"icon":"fa-star","label":"Ранг","value":"X"},{"icon":"fa-fist-raised","label":"Тип","value":"Боевая"},{"icon":"fa-hand","label":"Применение","value":"Удар"}]'>
+                <span class="technique-card__type-badge technique-card__type-badge--mechanical">
+                    <i class="fas fa-notes-medical"></i> Медицинская
+                </span>
+                <div class="technique-card__preview">
+                    <img src="images/disrupting-blow.jpg" alt="Нарушающий удар">
+                </div>
+                <div class="technique-card__preview-info">
+                    <div class="technique-card__preview-left">
+                        <div class="technique-card__preview-name">Нарушающий удар</div>
+                        <span class="technique-card__preview-name-jp">破壊的打撃</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 8. Регенерация клеток -->
+            <div class="technique-card fade-in"
+                 data-name="Регенерация клеток"
+                 data-name-jp="細胞再生"
+                 data-type="mechanical"
+                 data-rank="X"
+                 data-desc="Складывая печати, пользователь превращает большой объём своей чакры в Янь-чакру. Это приводит к критически быстрой регенерации клеток, а также усиливает физические возможности пользователя. После использования требуется длительный отдых перед повторным применением."
+                 data-details='[{"icon":"fa-bolt","label":"Скейлинг","value":"Ниндзюцу"},{"icon":"fa-star","label":"Ранг","value":"X"},{"icon":"fa-heart","label":"Тип","value":"Лечебная"},{"icon":"fa-clock","label":"Восстановление","value":"Длит. отдых"}]'>
+                <span class="technique-card__type-badge technique-card__type-badge--mechanical">
+                    <i class="fas fa-notes-medical"></i> Медицинская
+                </span>
+                <div class="technique-card__preview">
+                    <img src="images/cell-regeneration.jpg" alt="Регенерация клеток">
+                </div>
+                <div class="technique-card__preview-info">
+                    <div class="technique-card__preview-left">
+                        <div class="technique-card__preview-name">Регенерация клеток</div>
+                        <span class="technique-card__preview-name-jp">細胞再生</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- ===== МЕДИЦИНСКОЕ ТАЙДЗЮЦУ ===== -->
+        <div class="technique-divider fade-in">
+            <span class="technique-divider__line"></span>
+            <span class="technique-divider__label technique-divider__label--taijutsu">
+                <i class="fas fa-hand-fist"></i> Медицинское тайдзюцу
+            </span>
+            <span class="technique-divider__line"></span>
+        </div>
+
+        <div class="technique-grid">
+
+            <!-- 1. Стиль боя: Тайдзюцу Медика -->
+            <div class="technique-card technique-card--taijutsu fade-in"
+                 data-name="Стиль боя: Тайдзюцу Медика"
+                 data-name-jp="医療体術"
+                 data-type="taijutsu"
+                 data-rank="E"
+                 data-desc="МедТай, или Тайдзюцу Медика — стиль боя, основанный на точном контроле чакры для усиления физических атак."
+                 data-details='[{"icon":"fa-bolt","label":"Скейлинг","value":"Нет"},{"icon":"fa-star","label":"Ранг","value":"E"},{"icon":"fa-hand-fist","label":"Тип","value":"Боевое иск-во"},{"icon":"fa-clipboard-list","label":"Условие","value":"Занятия с инструктором"}]'>
+                <span class="technique-card__type-badge technique-card__type-badge--taijutsu">
+                    <i class="fas fa-hand-fist"></i> Тайдзюцу
+                </span>
+                <div class="technique-card__preview">
+                    <img src="images/med-taijutsu.jpg" alt="Стиль боя: Тайдзюцу Медика">
+                </div>
+                <div class="technique-card__preview-info">
+                    <div class="technique-card__preview-left">
+                        <div class="technique-card__preview-name">Стиль боя: Тайдзюцу Медика</div>
+                        <span class="technique-card__preview-name-jp">医療体術</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2. Багровая морось -->
+            <div class="technique-card technique-card--taijutsu fade-in"
+                 data-name="Багровая морось"
+                 data-name-jp="紅霧"
+                 data-type="taijutsu"
+                 data-rank="C"
+                 data-desc="Крайне быстрый рывок вперёд и вверх. По достижении высшей точки прыжка пользователь стремительно падает кулаком вниз, нанося удар по оппоненту либо по поверхности рядом с ним, сотрясая его с ног и нанося физические увечья."
+                 data-details='[{"icon":"fa-bolt","label":"Скейлинг","value":"Тайдзюцу"},{"icon":"fa-star","label":"Ранг","value":"C"},{"icon":"fa-hand-fist","label":"Тип","value":"Боевое тайдзюцу"},{"icon":"fa-gauge-high","label":"Скорость","value":"Высокая"}]'>
+                <span class="technique-card__type-badge technique-card__type-badge--taijutsu">
+                    <i class="fas fa-hand-fist"></i> Тайдзюцу
+                </span>
+                <div class="technique-card__preview">
+                    <img src="images/crimson-mist.jpg" alt="Багровая морось">
+                </div>
+                <div class="technique-card__preview-info">
+                    <div class="technique-card__preview-left">
+                        <div class="technique-card__preview-name">Багровая морось</div>
+                        <span class="technique-card__preview-name-jp">紅霧</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3. Расцветающая вишня -->
+            <div class="technique-card technique-card--taijutsu fade-in"
+                 data-name="Расцветающая вишня"
+                 data-name-jp="桜花"
+                 data-type="taijutsu"
+                 data-rank="D"
+                 data-desc="Более слабая версия «Багровой Мороси». Требует от пользователя большой силы ног, так как прыжок куда выше. Удар о землю наносит физические увечья оппонентам. Отличительная черта — техника считается ниндзюцу."
+                 data-details='[{"icon":"fa-bolt","label":"Скейлинг","value":"Ниндзюцу"},{"icon":"fa-star","label":"Ранг","value":"D"},{"icon":"fa-hand-fist","label":"Тип","value":"Боевое ниндзюцу"},{"icon":"fa-gauge-high","label":"Скорость","value":"Средняя"}]'>
+                <span class="technique-card__type-badge technique-card__type-badge--taijutsu">
+                    <i class="fas fa-hand-fist"></i> Тайдзюцу
+                </span>
+                <div class="technique-card__preview">
+                    <img src="images/cherry-blossom.jpg" alt="Расцветающая вишня">
+                </div>
+                <div class="technique-card__preview-info">
+                    <div class="technique-card__preview-left">
+                        <div class="technique-card__preview-name">Расцветающая вишня</div>
+                        <span class="technique-card__preview-name-jp">桜花</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4. Небесный болевой удар -->
+            <div class="technique-card technique-card--taijutsu fade-in"
+                 data-name="Небесный болевой удар"
+                 data-name-jp="天翔痛撃"
+                 data-type="taijutsu"
+                 data-rank="B"
+                 data-desc="Сильнейшее ниндзюцу ниндзя-медика. Пользователь поднимает ногу и совершает прыжок вперёд на врага. Удар о землю наносит критические увечья оппоненту, а за ударом следует лёгкий шок, не позволяющий оппоненту сдвинуться с места."
+                 data-details='[{"icon":"fa-bolt","label":"Скейлинг","value":"Ниндзюцу"},{"icon":"fa-star","label":"Ранг","value":"B"},{"icon":"fa-hand-fist","label":"Тип","value":"Боевое ниндзюцу"},{"icon":"fa-gauge-high","label":"Скорость","value":"Высокая"}]'>
+                <span class="technique-card__type-badge technique-card__type-badge--taijutsu">
+                    <i class="fas fa-hand-fist"></i> Тайдзюцу
+                </span>
+                <div class="technique-card__preview">
+                    <img src="images/heavenly-pain.jpg" alt="Небесный болевой удар">
+                </div>
+                <div class="technique-card__preview-info">
+                    <div class="technique-card__preview-left">
+                        <div class="technique-card__preview-name">Небесный болевой удар</div>
+                        <span class="technique-card__preview-name-jp">天翔痛撃</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- ===== СКАЛЬПЕЛЬ ЧАКРЫ ===== -->
+        <div class="technique-divider fade-in">
+            <span class="technique-divider__line"></span>
+            <span class="technique-divider__label technique-divider__label--scalpel">
+                <i class="fas fa-scalpel"></i> Скальпель чакры
+            </span>
+            <span class="technique-divider__line"></span>
+        </div>
+
+        <div class="technique-grid">
+
+            <!-- 1. Стиль боя: Скальпель Чакры -->
+            <div class="technique-card technique-card--scalpel fade-in"
+                 data-name="Стиль боя: Скальпель Чакры"
+                 data-name-jp="チャクラメス"
+                 data-type="scalpel"
+                 data-rank="E"
+                 data-desc="Пользователь получает возможность сражаться скальпелями чакры в качестве оружия. Скальпель представляет собой острое лезвие из чакры, действующее как продолжение руки. Клинки конвертируют весь наносимый физический урон в урон ниндзюцу. Нанеся достаточно ударов, можно перерезать поток чакры оппонента, временно блокируя его техники."
+                 data-details='[{"icon":"fa-bolt","label":"Скейлинг","value":"Ниндзюцу"},{"icon":"fa-star","label":"Ранг","value":"E"},{"icon":"fa-hand-fist","label":"Тип","value":"Боевое иск-во"},{"icon":"fa-clipboard-list","label":"Требование","value":"Обучение у инструктора"}]'>
+                <span class="technique-card__type-badge technique-card__type-badge--scalpel">
+                    <i class="fas fa-scalpel"></i> Скальпель
+                </span>
+                <div class="technique-card__preview">
+                    <img src="images/chakra-scalpel.jpg" alt="Стиль боя: Скальпель Чакры">
+                </div>
+                <div class="technique-card__preview-info">
+                    <div class="technique-card__preview-left">
+                        <div class="technique-card__preview-name">Стиль боя: Скальпель Чакры</div>
+                        <span class="technique-card__preview-name-jp">チャクラメス</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2. Нервный разрыв -->
+            <div class="technique-card technique-card--scalpel fade-in"
+                 data-name="Нервный разрыв"
+                 data-name-jp="神経断裂"
+                 data-type="scalpel"
+                 data-rank="C"
+                 data-desc="Пользователь выполняет круговой удар скальпелями в виде разреза, наносящий урон всем целям вокруг. Такой удар перерезает нерв оппонента, вызывая сильную боль."
+                 data-details='[{"icon":"fa-bolt","label":"Скейлинг","value":"Ниндзюцу"},{"icon":"fa-star","label":"Ранг","value":"C"},{"icon":"fa-hand-fist","label":"Тип","value":"Боевое ниндзюцу"},{"icon":"fa-gauge-high","label":"Скорость","value":"Высокая"}]'>
+                <span class="technique-card__type-badge technique-card__type-badge--scalpel">
+                    <i class="fas fa-scalpel"></i> Скальпель
+                </span>
+                <div class="technique-card__preview">
+                    <img src="images/nerve-rupture.jpg" alt="Нервный разрыв">
+                </div>
+                <div class="technique-card__preview-info">
+                    <div class="technique-card__preview-left">
+                        <div class="technique-card__preview-name">Нервный разрыв</div>
+                        <span class="technique-card__preview-name-jp">神経断裂</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3. Перекрёстный разрез -->
+            <div class="technique-card technique-card--scalpel fade-in"
+                 data-name="Перекрёстный разрез"
+                 data-name-jp="交差斬り"
+                 data-type="scalpel"
+                 data-rank="B"
+                 data-desc="Пользователь собирает большое количество чакры в ногах, получая огромный прирост скорости, и стремительно движется в сторону оппонента. При соприкосновении совершает дуговой разрез, наносящий большой урон."
+                 data-details='[{"icon":"fa-bolt","label":"Скейлинг","value":"Ниндзюцу"},{"icon":"fa-star","label":"Ранг","value":"B"},{"icon":"fa-hand-fist","label":"Тип","value":"Боевое ниндзюцу"},{"icon":"fa-gauge-high","label":"Скорость","value":"Очень высокая"}]'>
+                <span class="technique-card__type-badge technique-card__type-badge--scalpel">
+                    <i class="fas fa-scalpel"></i> Скальпель
+                </span>
+                <div class="technique-card__preview">
+                    <img src="images/cross-slash.jpg" alt="Перекрёстный разрез">
+                </div>
+                <div class="technique-card__preview-info">
+                    <div class="technique-card__preview-left">
+                        <div class="technique-card__preview-name">Перекрёстный разрез</div>
+                        <span class="technique-card__preview-name-jp">交差斬り</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- ===== РОЛЕВЫЕ ТЕХНИКИ ===== -->
+        <div class="technique-divider fade-in">
+            <span class="technique-divider__line"></span>
+            <span class="technique-divider__label technique-divider__label--roleplay">
+                <i class="fas fa-masks-theater"></i> Ролевые
+            </span>
+            <span class="technique-divider__line"></span>
+        </div>
+
+        <div class="technique-grid">
+
+            <!-- 1. Инверсивная техника мистической ладони -->
+            <div class="technique-card fade-in"
+                 data-name="Инверсивная техника мистической ладони"
+                 data-name-jp="逆神秘の掌"
+                 data-type="roleplay"
+                 data-rank="C"
+                 data-desc="Базовая техника Мистической Ладони создаёт ауру лечебной чакры типа Янь. Её инверсивная версия, напротив, формирует разрушительную ауру типа Инь, которая ускоряет действие ядов и заболеваний в теле противника."
+                 data-details='[{"icon":"fa-bolt","label":"Скейлинг","value":"Нет"},{"icon":"fa-star","label":"Ранг","value":"C"},{"icon":"fa-skull","label":"Тип","value":"Боевое ниндзюцу"},{"icon":"fa-hand","label":"Применение","value":"Касание"}]'>
+                <span class="technique-card__type-badge technique-card__type-badge--roleplay">
+                    <i class="fas fa-masks-theater"></i> Ролевая
+                </span>
+                <div class="technique-card__preview">
+                    <img src="images/inverse-mystic-palm.jpg" alt="Инверсивная техника мистической ладони">
+                </div>
+                <div class="technique-card__preview-info">
+                    <div class="technique-card__preview-left">
+                        <div class="technique-card__preview-name">Инверсивная техника мистической ладони</div>
+                        <span class="technique-card__preview-name-jp">逆神秘の掌</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2. Камао Бьякуган Буттай Но Джутсу -->
+            <div class="technique-card fade-in"
+                 data-name="Камао Бьякуган Буттай Но Джутсу"
+                 data-name-jp="解剖白眼物体の術"
+                 data-type="roleplay"
+                 data-rank="A"
+                 data-desc="Техника, доступная исключительно членам клана Хьюга. Позволяет оперировать пациента на уровне потоков чакры благодаря додзюцу Бьякуган. Такие операции дают возможность заменять повреждённые части тела или подключать утраченные конечности."
+                 data-details='[{"icon":"fa-bolt","label":"Скейлинг","value":"Нет"},{"icon":"fa-star","label":"Ранг","value":"A"},{"icon":"fa-dna","label":"Тип","value":"Лечебное додзюцу / Ирьёниндзюцу"},{"icon":"fa-eye","label":"Условие","value":"Бьякуган"}]'>
+                <span class="technique-card__type-badge technique-card__type-badge--roleplay">
+                    <i class="fas fa-masks-theater"></i> Ролевая
+                </span>
+                <div class="technique-card__preview">
+                    <img src="images/byakugan-surgery.jpg" alt="Камао Бьякуган Буттай Но Джутсу">
+                </div>
+                <div class="technique-card__preview-info">
+                    <div class="technique-card__preview-left">
+                        <div class="technique-card__preview-name">Камао Бьякуган Буттай Но Джутсу</div>
+                        <span class="technique-card__preview-name-jp">解剖白眼物体の術</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ===== MODAL FOR TECHNIQUE ===== -->
+    <div class="modal-overlay" id="techniqueModal">
+        <div class="modal modal--technique">
+            <button class="modal__close" id="techniqueModalClose">
+                <i class="fas fa-times"></i>
+            </button>
+
+            <!-- Media -->
+            <div class="technique-modal__media">
+                <img id="techModalImage" src="" alt="Изображение техники">
+            </div>
+
+            <!-- Header -->
+            <div class="technique-modal__header">
+                <div>
+                    <div class="technique-modal__name" id="techModalName">Название</div>
+                    <span class="technique-modal__name-jp" id="techModalNameJp">技術名</span>
+                </div>
+                <span class="technique-modal__rank" id="techModalRank">S</span>
+            </div>
+
+            <!-- Type badge -->
+            <span class="technique-modal__type-badge" id="techModalType">Механика</span>
+
+            <!-- Description -->
+            <p class="technique-modal__desc" id="techModalDesc">Описание</p>
+
+            <!-- Details -->
+            <div class="technique-modal__details" id="techModalDetails">
+                <!-- заполняется JS -->
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer__inner">
+            <div class="footer__brand">
+                <i class="fas fa-plus" style="color: var(--accent-glow); margin-right: 8px;"></i>
+                Медицинский Корпус Конохи
+            </div>
+            <div class="footer__copy">
+                &copy; 2026 GMod Naruto RP. Все права защищены.
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

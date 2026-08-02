@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лекция № 01 — Анатомия шиноби | Медицинский Корпус Конохи</title>
+    <meta name="description" content="Лекция № 01 — Анатомия шиноби. Учебный материал медицинского корпуса Конохи.">
+    <link rel="icon" type="image/png" href="images/icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ===== PRELOADER ===== -->
+    <div class="preloader" id="preloader">
+        <div class="preloader__cross"></div>
+        <div class="preloader__ecg">
+            <svg class="preloader__ecg-line" viewBox="0 0 200 50" preserveAspectRatio="none">
+                <path d="M0,25 L30,25 L40,25 L45,10 L55,40 L65,15 L75,25 L100,25 L110,25 L115,15 L125,35 L135,25 L160,25 L170,25 L175,20 L185,30 L200,25" />
+            </svg>
+        </div>
+        <div class="preloader__title">МедКорпус Конохи</div>
+        <div class="preloader__subtitle">医療部隊</div>
+        <div class="preloader__dots">
+            <span class="preloader__dot"></span>
+            <span class="preloader__dot"></span>
+            <span class="preloader__dot"></span>
+        </div>
+    </div>
+
+    <header class="header">
+        <nav class="nav">
+            <a href="index.html" class="nav__logo">
+                <div class="nav__logo-icon">
+                    <i class="fas fa-plus"></i>
+                </div>
+                <span>МедКорпус Конохи</span>
+            </a>
+            <button class="nav__toggle" aria-label="Меню">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav__links">
+                <li><a href="index.html" class="nav__link">Главная</a></li>
+                <li><a href="sostav.html" class="nav__link">Состав</a></li>
+                <li><a href="tehniki.html" class="nav__link">Техники</a></li>
+                <li><a href="reglamenty.html" class="nav__link">Регламенты</a></li>
+                <li><a href="lekcii.html" class="nav__link active">Лекции</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="page-header">
+        <h1 class="page-header__title">
+            <i class="fas fa-chalkboard-user"></i> Лекция № 01
+        </h1>
+        <p class="page-header__subtitle">Анатомия шиноби</p>
+    </div>
+
+    <section class="section">
+        <a href="lekcii.html" class="lecture-back fade-in">
+            <i class="fas fa-arrow-left"></i> К списку лекций
+        </a>
+
+        <div class="lecture-doc fade-in">
+
+            <!-- Шапка лекции -->
+            <div class="lecture-doc__header">
+                <div class="lecture-doc__kanji">解剖学</div>
+                <div class="lecture-doc__number">Лекция № 01</div>
+                <div class="lecture-doc__title">АНАТОМИЯ ШИНОБИ</div>
+                <div class="lecture-doc__subtitle">Медицинский корпус Конохи</div>
+            </div>
+
+            <!-- Эпиграф -->
+            <div class="lecture-doc__epigraph">
+                «Чтобы спасти человека, необходимо сначала понять, что именно ты пытаешься спасти.»
+            </div>
+
+            <!-- ===== ФОТОГРАФИИ ЛЕКЦИИ (из папки lecture1/) ===== -->
+            <!--
+                Добавляйте фотографии лекции сюда. Файлы кладите в папку lecture1/
+                Пример:
+                <div class="lecture-doc__gallery">
+                    <img src="lecture1/anatomy-skeleton.jpg" alt="Скелет шиноби">
+                    <img src="lecture1/chakra-system.jpg" alt="Система циркуляции чакры">
+                </div>
+            -->
+
+            <!-- I. Введение -->
+            <div class="lecture-section">
+                <div class="lecture-section__header">
+                    <span class="lecture-section__num">I</span>
+                    <span class="lecture-section__title">Введение</span>
+                </div>
+                <div class="lecture-section__text">
+                    Анатомия — одна из фундаментальных дисциплин медицинского дела.
+                </div>
+                <div class="lecture-section__text">
+                    Медицинский шиноби не может качественно лечить пациента, если не понимает устройство его организма.
+                </div>
+                <div class="lecture-section__text">
+                    Каждая кость, мышца, кровеносный сосуд и внутренний орган имеет своё предназначение. Повреждение даже небольшой части организма может привести к серьёзным последствиям.
+                </div>
+                <div class="lecture-section__text">
+                    Для шиноби существует ещё одна система, которую медицинскому шиноби необходимо изучать особенно тщательно — система циркуляции чакры.
+                </div>
+                <div class="lecture-section__text">
+                    Поэтому медицинский шиноби должен понимать не только физическое строение тела, но и взаимодействие организма с чакрой.
+                </div>
+            </div>
+
+            <!-- II. Основные системы организма -->
+            <div class="lecture-section">
+                <div class="lecture-section__header">
+                    <span class="lecture-section__num">II</span>
+                    <span class="lecture-section__title">Основные системы организма</span>
+                </div>
+                <div class="lecture-section__text">
+                    Организм шиноби условно можно разделить на несколько основных систем:
+                </div>
+                <ul class="lecture-section__list">
+                    <li>Костная система.</li>
+                    <li>Мышечная система.</li>
+                    <li>Кровеносная система.</li>
+                    <li>Дыхательная система.</li>
+                    <li>Нервная система.</li>
+                    <li>Пищеварительная система.</li>
+                    <li>Система циркуляции чакры.</li>
+                    <li>Внутренние органы.</li>
+                </ul>
+            </div>
+
+            <!-- III. Костная система -->
+            <div class="lecture-section">
+                <div class="lecture-section__header">
+                    <span class="lecture-section__num">III</span>
+                    <span class="lecture-section__title">Костная система</span>
+                </div>
+                <div class="lecture-section__text">
+                    Кости выполняют несколько важнейших функций.
+                </div>
+                <div class="lecture-section__text">
+                    Они поддерживают тело, защищают внутренние органы и позволяют человеку совершать движения.
+                </div>
+                <div class="lecture-section__text">
+                    Особое значение имеют:
+                </div>
+                <ul class="lecture-section__list">
+                    <li><strong>Череп</strong> — защищает головной мозг.</li>
+                    <li><strong>Позвоночник</strong> — поддерживает тело и защищает спинной мозг.</li>
+                    <li><strong>Грудная клетка</strong> — защищает сердце и лёгкие.</li>
+                    <li><strong>Таз</strong> — защищает органы нижней части брюшной полости.</li>
+                </ul>
+                <div class="lecture-section__text">
+                    Перелом кости сам по себе может быть серьёзной травмой, однако ещё большую опасность представляет повреждение органов или сосудов, расположенных рядом.
+                </div>
+                <div class="lecture-section__text">
+                    Например, повреждение рёбер может привести к травме лёгких, а повреждение позвоночника — к нарушению работы нервной системы.
+                </div>
+                <div class="lecture-note">
+                    Медицинский шиноби никогда не должен рассматривать перелом исключительно как повреждение самой кости.
+                </div>
+            </div>
+
+            <!-- IV. Мышечная система -->
+            <div class="lecture-section">
+                <div class="lecture-section__header">
+                    <span class="lecture-section__num">IV</span>
+                    <span class="lecture-section__title">Мышечная система</span>
+                </div>
+                <div class="lecture-section__text">
+                    Мышцы отвечают за движение тела и поддержание его положения.
+                </div>
+                <div class="lecture-section__text">
+                    Для шиноби состояние мышечной системы имеет особое значение.
+                </div>
+                <div class="lecture-section__text">
+                    Использование тайдзюцу, бег, прыжки, уклонения и физические атаки требуют постоянной работы мышц.
+                </div>
+                <div class="lecture-section__text">
+                    Повреждение мышц может привести к:
+                </div>
+                <ul class="lecture-section__list">
+                    <li>Потере силы.</li>
+                    <li>Ограничению движений.</li>
+                    <li>Боли.</li>
+                    <li>Внутреннему кровотечению.</li>
+                    <li>Невозможности использовать отдельные техники.</li>
+                </ul>
+                <div class="lecture-section__text">
+                    Серьёзное повреждение мышечной ткани требует медицинского вмешательства и последующего восстановления.
+                </div>
+            </div>
+
+            <!-- V. Кровеносная система -->
+            <div class="lecture-section">
+                <div class="lecture-section__header">
+                    <span class="lecture-section__num">V</span>
+                    <span class="lecture-section__title">Кровеносная система</span>
+                </div>
+                <div class="lecture-section__text">
+                    Кровь обеспечивает организм кислородом и необходимыми веществами.
+                </div>
+                <div class="lecture-section__text">
+                    Кровеносные сосуды проходят практически через всё тело.
+                </div>
+                <div class="lecture-section__text">
+                    Основная опасность при серьёзных ранениях — потеря крови.
+                </div>
+                <div class="lecture-section__text">
+                    При повреждении крупного сосуда пациент может потерять значительное количество крови за короткий промежуток времени.
+                </div>
+                <div class="lecture-section__text">
+                    Признаки тяжёлой кровопотери могут включать:
+                </div>
+                <ul class="lecture-section__list">
+                    <li>Слабость.</li>
+                    <li>Головокружение.</li>
+                    <li>Бледность.</li>
+                    <li>Учащённое сердцебиение.</li>
+                    <li>Потерю сознания.</li>
+                    <li>Снижение способности организма поддерживать нормальную работу внутренних органов.</li>
+                </ul>
+                <div class="lecture-note">
+                    Медицинский шиноби обязан уметь быстро определить наличие опасного кровотечения и принять меры по его остановке.
+                </div>
+            </div>
+
+            <!-- VI. Сердце -->
+            <div class="lecture-section">
+                <div class="lecture-section__header">
+                    <span class="lecture-section__num">VI</span>
+                    <span class="lecture-section__title">Сердце</span>
+                </div>
+                <div class="lecture-section__text">
+                    Сердце является одним из важнейших органов организма.
+                </div>
+                <div class="lecture-section__text">
+                    Его основная функция — обеспечение движения крови по кровеносной системе.
+                </div>
+                <div class="lecture-section__text">
+                    Повреждение сердца представляет непосредственную угрозу жизни пациента.
+                </div>
+                <div class="lecture-section__text">
+                    При подозрении на травму грудной клетки медицинский шиноби обязан учитывать возможность повреждения сердца и крупных сосудов.
+                </div>
+                <div class="lecture-note">
+                    Попытка использовать медицинскую технику без понимания расположения органов может привести к ещё большему повреждению.
+                </div>
+            </div>
+
+            <!-- VII. Лёгкие и дыхательная система -->
+            <div class="lecture-section">
+                <div class="lecture-section__header">
+                    <span class="lecture-section__num">VII</span>
+                    <span class="lecture-section__title">Лёгкие и дыхательная система</span>
+                </div>
+                <div class="lecture-section__text">
+                    Лёгкие обеспечивают организм необходимым для жизнедеятельности кислородом.
+                </div>
+                <div class="lecture-section__text">
+                    Повреждения грудной клетки могут нарушить нормальное дыхание.
+                </div>
+                <div class="lecture-section__text">
+                    Особенно опасными являются:
+                </div>
+                <ul class="lecture-section__list">
+                    <li>Проникающие ранения грудной клетки.</li>
+                    <li>Повреждения лёгких.</li>
+                    <li>Накопление крови или воздуха в грудной полости.</li>
+                    <li>Тяжёлые ожоги дыхательных путей.</li>
+                </ul>
+                <div class="lecture-section__text">
+                    Медицинский шиноби должен постоянно следить за дыханием пациента при тяжёлых травмах.
+                </div>
+                <div class="lecture-note">
+                    Если пациент перестаёт нормально дышать, ситуация требует немедленного вмешательства.
+                </div>
+            </div>
+
+            <!-- VIII. Мозг и нервная система -->
+            <div class="lecture-section">
+                <div class="lecture-section__header">
+                    <span class="lecture-section__num">VIII</span>
+                    <span class="lecture-section__title">Мозг и нервная система</span>
+                </div>
+                <div class="lecture-section__text">
+                    Нервная система контролирует практически все функции организма.
+                </div>
+                <div class="lecture-section__text">
+                    Головной мозг отвечает за:
+                </div>
+                <ul class="lecture-section__list">
+                    <li>Сознание.</li>
+                    <li>Память.</li>
+                    <li>Координацию.</li>
+                    <li>Мышление.</li>
+                    <li>Движение.</li>
+                    <li>Восприятие окружающего мира.</li>
+                </ul>
+                <div class="lecture-section__text">
+                    Повреждение головного мозга может привести к:
+                </div>
+                <ul class="lecture-section__list">
+                    <li>Потере сознания.</li>
+                    <li>Потере памяти.</li>
+                    <li>Нарушению координации.</li>
+                    <li>Изменению поведения.</li>
+                    <li>Нарушению речи.</li>
+                    <li>Потере контроля над отдельными частями тела.</li>
+                </ul>
+                <div class="lecture-section__text">
+                    Особую опасность представляют травмы головы.
+                </div>
+                <div class="lecture-note">
+                    Даже если внешнее повреждение кажется незначительным, внутри черепа могут происходить серьёзные процессы.
+                </div>
+
+                <!-- Фотография: разум и тело -->
+                <div class="lecture-doc__gallery">
+                    <div class="lecture-doc__photo" data-full="lecture1/mindbody.png">
+                        <img src="lecture1/mindbody.png" alt="Разум и тело шиноби">
+                    </div>
+                </div>
+            </div>
+
+            <!-- IX. Позвоночник и спинной мозг -->
+            <div class="lecture-section">
+                <div class="lecture-section__header">
+                    <span class="lecture-section__num">IX</span>
+                    <span class="lecture-section__title">Позвоночник и спинной мозг</span>
+                </div>
+                <div class="lecture-section__text">
+                    Позвоночник является одной из наиболее важных структур тела.
+                </div>
+                <div class="lecture-section__text">
+                    Внутри позвоночного канала располагается спинной мозг, соединяющий головной мозг с остальной частью нервной системы.
+                </div>
+                <div class="lecture-section__text">
+                    Повреждение позвоночника может привести к:
+                </div>
+                <ul class="lecture-section__list">
+                    <li>Потере чувствительности.</li>
+                    <li>Параличу.</li>
+                    <li>Нарушению движения.</li>
+                    <li>Повреждению внутренних органов.</li>
+                    <li>Полной потере контроля над отдельными частями тела.</li>
+                </ul>
+                <div class="lecture-note">
+                    При подозрении на повреждение позвоночника пациента необходимо перемещать с максимальной осторожностью.
+                </div>
+            </div>
+
+            <!-- X. Система циркуляции чакры -->
+            <div class="lecture-section">
+                <div class="lecture-section__header">
+                    <span class="lecture-section__num">X</span>
+                    <span class="lecture-section__title">Система циркуляции чакры</span>
+                </div>
+                <div class="lecture-section__text">
+                    Организм шиноби отличается от организма обычного человека наличием системы циркуляции чакры.
+                </div>
+                <div class="lecture-section__text">
+                    Чакра циркулирует по специальной системе каналов, проходящей через тело.
+                </div>
+                <div class="lecture-section__text">
+                    Эта система позволяет шиноби направлять чакру к различным частям организма и использовать её для выполнения техник.
+                </div>
+                <div class="lecture-section__text">
+                    Нарушение циркуляции чакры может серьёзно повлиять на состояние шиноби даже при отсутствии значительных физических повреждений.
+                </div>
+                <div class="lecture-section__text">
+                    Повреждение системы циркуляции чакры может привести к:
+                </div>
+                <ul class="lecture-section__list">
+                    <li>Невозможности использовать техники.</li>
+                    <li>Неправильному распределению чакры.</li>
+                    <li>Боли.</li>
+                    <li>Потере контроля над чакрой.</li>
+                    <li>Истощению.</li>
+                    <li>Повреждению внутренних тканей.</li>
+                </ul>
+
+                <!-- Фотография: потоки чакры -->
+                <div class="lecture-doc__gallery">
+                    <div class="lecture-doc__photo" data-full="lecture1/chakraflows.jpg">
+                        <img src="lecture1/chakraflows.jpg" alt="Потоки циркуляции чакры">
+                    </div>
+                </div>
+            </div>
+
+            <!-- XI. Тенкецу -->
+            <div class="lecture-section">
+                <div class="lecture-section__header">
+                    <span class="lecture-section__num">XI</span>
+                    <span class="lecture-section__title">Тенкецу</span>
+                </div>
+                <div class="lecture-section__text">
+                    Тенкецу — точки циркуляции чакры, расположенные по всему телу.
+                </div>
+                <div class="lecture-section__text">
+                    Через них проходит чакра, используемая шиноби.
+                </div>
+                <div class="lecture-section__text">
+                    Воздействие на определённые тенкецу может изменить движение чакры по организму.
+                </div>
+                <div class="lecture-section__text">
+                    Именно поэтому атаки, направленные на тенкецу, могут быть опасными даже без серьёзных внешних повреждений.
+                </div>
+                <div class="lecture-note">
+                    Медицинский шиноби должен учитывать состояние системы тенкецу при диагностике пациентов, получивших повреждения чакры.
+                </div>
+            </div>
+
+            <!-- XII. Влияние чакры на организм -->
+            <div class="lecture-section">
+                <div class="lecture-section__header">
+                    <span class="lecture-section__num">XII</span>
+                    <span class="lecture-section__title">Влияние чакры на организм</span>
+                </div>
+                <div class="lecture-section__text">
+                    Чакра является мощным ресурсом, однако её использование не является абсолютно безопасным.
+                </div>
+                <div class="lecture-section__text">
+                    Чрезмерное расходование чакры способно привести к истощению организма.
+                </div>
+                <div class="lecture-section__text">
+                    В зависимости от степени истощения шиноби может испытывать:
+                </div>
+                <ul class="lecture-section__list">
+                    <li>Слабость.</li>
+                    <li>Головокружение.</li>
+                    <li>Потерю концентрации.</li>
+                    <li>Нарушение контроля чакры.</li>
+                    <li>Потерю сознания.</li>
+                </ul>
+                <div class="lecture-note">
+                    Медицинский шиноби должен отличать обычную физическую усталость от истощения чакры. Эти состояния требуют разных подходов к лечению.
+                </div>
+            </div>
+
+            <!-- XIII. Особенности тела шиноби -->
+            <div class="lecture-section">
+                <div class="lecture-section__header">
+                    <span class="lecture-section__num">XIII</span>
+                    <span class="lecture-section__title">Особенности тела шиноби</span>
+                </div>
+                <div class="lecture-section__text">
+                    Организм каждого шиноби индивидуален.
+                </div>
+                <div class="lecture-section__text">
+                    На физическое состояние могут влиять:
+                </div>
+                <ul class="lecture-section__list">
+                    <li>Принадлежность к клану.</li>
+                    <li>Наследственные особенности.</li>
+                    <li>Количество чакры.</li>
+                    <li>Тренировки.</li>
+                    <li>Перенесённые травмы.</li>
+                    <li>Медицинские вмешательства.</li>
+                    <li>Особенности организма.</li>
+                </ul>
+                <div class="lecture-section__text">
+                    Некоторые шиноби могут обладать необычными способностями, связанными с их наследственностью.
+                </div>
+                <div class="lecture-note">
+                    Медицинский шиноби не должен автоматически применять один и тот же метод лечения ко всем пациентам. Перед лечением необходимо изучить состояние конкретного человека.
+                </div>
+            </div>
+
+            <!-- XIV. Правило медицинского шиноби -->
+            <div class="lecture-section">
+                <div class="lecture-section__header">
+                    <span class="lecture-section__num">XIV</span>
+                    <span class="lecture-section__title">Правило медицинского шиноби</span>
+                </div>
+                <div class="lecture-section__text">
+                    Запомните главное:
+                </div>
+                <div class="lecture-note" style="text-align: center; font-size: 1.1rem;">
+                    <strong style="color: var(--accent-glow);">Медицинский шиноби не лечит рану.</strong><br>
+                    <span style="color: var(--text-dark); font-weight: 600;">Он лечит человека.</span>
+                </div>
+                <div class="lecture-section__text">
+                    Одна и та же рана может иметь совершенно разные последствия для разных пациентов.
+                </div>
+                <div class="lecture-section__text">
+                    Поэтому перед использованием медицинской техники необходимо задать себе три вопроса:
+                </div>
+                <ul class="lecture-questions">
+                    <li>Что произошло с пациентом?</li>
+                    <li>Какая часть организма повреждена?</li>
+                    <li>Как моё вмешательство повлияет на весь организм?</li>
+                </ul>
+            </div>
+
+            <!-- XV. Практическое задание -->
+            <div class="lecture-section">
+                <div class="lecture-section__header">
+                    <span class="lecture-section__num">XV</span>
+                    <span class="lecture-section__title">Практическое задание</span>
+                </div>
+                <div class="lecture-task">
+                    <div class="lecture-task__title">
+                        <i class="fas fa-user-injured"></i> Ситуация
+                    </div>
+                    <div class="lecture-section__text">
+                        Пациент поступает в медицинский корпус после боя.
+                    </div>
+                    <div class="lecture-section__text">
+                        Состояние:
+                    </div>
+                    <ul class="lecture-section__list">
+                        <li>Потеря сознания.</li>
+                        <li>Глубокая рана в области живота.</li>
+                        <li>Слабый пульс.</li>
+                        <li>Затруднённое дыхание.</li>
+                        <li>Нестабильная циркуляция чакры.</li>
+                    </ul>
+                    <div class="lecture-task__title">
+                        <i class="fas fa-clipboard-list"></i> Задание для интернов
+                    </div>
+                    <div class="lecture-section__text">
+                        Определите:
+                    </div>
+                    <ul class="lecture-questions">
+                        <li>Какие системы организма могут быть повреждены?</li>
+                        <li>Какие органы находятся в области предполагаемого ранения?</li>
+                        <li>Что представляет наибольшую непосредственную угрозу жизни?</li>
+                        <li>Какие действия должен предпринять медицинский шиноби в первую очередь?</li>
+                        <li>Можно ли сразу использовать медицинскую технику?</li>
+                        <li>Какие дополнительные обследования необходимо провести?</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- XVI. Контрольные вопросы -->
+            <div class="lecture-section">
+                <div class="lecture-section__header">
+                    <span class="lecture-section__num">XVI</span>
+                    <span class="lecture-section__title">Контрольные вопросы</span>
+                </div>
+                <ul class="lecture-questions">
+                    <li>Какую функцию выполняет кровеносная система?</li>
+                    <li>Почему повреждение позвоночника является особенно опасным?</li>
+                    <li>Какие функции выполняет головной мозг?</li>
+                    <li>Почему повреждение грудной клетки может представлять угрозу для жизни?</li>
+                    <li>Что такое система циркуляции чакры?</li>
+                    <li>Что такое тенкецу?</li>
+                    <li>Какие последствия может вызвать повреждение системы циркуляции чакры?</li>
+                    <li>Чем истощение чакры отличается от обычной физической усталости?</li>
+                    <li>Почему медицинский шиноби должен учитывать индивидуальные особенности пациента?</li>
+                    <li>Какой главный принцип должен соблюдать медицинский шиноби при лечении пациента?</li>
+                </ul>
+            </div>
+
+            <!-- XVII. Заключение -->
+            <div class="lecture-section">
+                <div class="lecture-section__header">
+                    <span class="lecture-section__num">XVII</span>
+                    <span class="lecture-section__title">Заключение</span>
+                </div>
+                <div class="lecture-section__text">
+                    Знание анатомии является фундаментом медицинского искусства.
+                </div>
+                <div class="lecture-section__text">
+                    Без него медицинская техника превращается в инструмент, который может как спасти жизнь, так и уничтожить её.
+                </div>
+                <div class="lecture-section__text">
+                    Хороший медицинский шиноби знает, куда направить чакру.
+                </div>
+                <div class="lecture-section__text">
+                    Опытный медицинский шиноби понимает, почему он направляет её именно туда.
+                </div>
+                <div class="lecture-section__text">
+                    А великий медицинский шиноби способен увидеть за повреждённым телом человека, которого он обязан спасти.
+                </div>
+            </div>
+
+            <!-- Заключительная цитата -->
+            <div class="lecture-doc__conclusion">
+                <p>«Изучай тело пациента так, будто однажды тебе придётся спасти его собственными руками.</p>
+                <p>Потому что однажды так и будет.»</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ===== LIGHTBOX (просмотр фото в полном размере) ===== -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox__close" id="lightboxClose">
+            <i class="fas fa-times"></i>
+        </button>
+        <img class="lightbox__image" id="lightboxImage" src="" alt="Просмотр изображения">
+    </div>
+
+    <footer class="footer">
+        <div class="footer__inner">
+            <div class="footer__brand">
+                <i class="fas fa-plus" style="color: var(--accent-glow); margin-right: 8px;"></i>
+                Медицинский Корпус Конохи
+            </div>
+            <div class="footer__copy">
+                &copy; 2026 GMod Naruto RP. Все права защищены.
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

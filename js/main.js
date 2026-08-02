@@ -95,6 +95,52 @@ if (window.location.pathname.includes('reglament-')) {
     });
 }
 
+// ===== LECTURE PAGES: SHOW ALL CONTENT IMMEDIATELY =====
+// On lecture pages, show all fade-in elements right away
+// so users don't need to scroll to reveal content
+if (window.location.pathname.includes('lekciya-')) {
+    document.querySelectorAll('.fade-in').forEach(el => {
+        el.classList.add('visible');
+    });
+}
+
+// ===== LIGHTBOX (lecture photos) =====
+const lightbox = document.getElementById('lightbox');
+const lightboxImage = document.getElementById('lightboxImage');
+const lightboxClose = document.getElementById('lightboxClose');
+
+if (lightbox) {
+    // Open lightbox on photo thumbnail click
+    document.querySelectorAll('.lecture-doc__photo').forEach(photo => {
+        photo.addEventListener('click', function() {
+            const fullSrc = this.dataset.full || this.querySelector('img').src;
+            lightboxImage.src = fullSrc;
+            lightbox.classList.add('open');
+            document.body.style.overflow = 'hidden';
+        });
+    });
+
+    // Close lightbox
+    function closeLightbox() {
+        lightbox.classList.remove('open');
+        document.body.style.overflow = '';
+    }
+
+    lightboxClose.addEventListener('click', closeLightbox);
+
+    lightbox.addEventListener('click', function(e) {
+        if (e.target === this) {
+            closeLightbox();
+        }
+    });
+
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && lightbox.classList.contains('open')) {
+            closeLightbox();
+        }
+    });
+}
+
 // ===== IRYOJUTSU FILTER =====
 const filterButtons = document.querySelectorAll('.filter-btn');
 const jutsuCards = document.querySelectorAll('.iryojutsu-card');

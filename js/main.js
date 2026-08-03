@@ -203,6 +203,24 @@ const modalOverlay = document.getElementById('memberModal');
 const modalClose = document.getElementById('modalClose');
 
 if (modalOverlay) {
+    function renderReprimandSlots(containerId, countId, filled, total, typeClass) {
+        const container = document.getElementById(containerId);
+        if (!container) return;
+        container.innerHTML = '';
+        for (let i = 0; i < total; i++) {
+            const slot = document.createElement('span');
+            slot.className = 'modal-reprimand-slot ' + typeClass;
+            if (i < filled) {
+                slot.classList.add('filled');
+            }
+            container.appendChild(slot);
+        }
+        const countEl = document.getElementById(countId);
+        if (countEl) {
+            countEl.textContent = filled + '/' + total;
+        }
+    }
+
     function fillModal(data) {
         document.getElementById('modalName').textContent = data.name || '—';
         document.getElementById('modalKanji').textContent = data.kanji || '—';
@@ -220,6 +238,13 @@ if (modalOverlay) {
         } else {
             noteRow.style.display = 'none';
         }
+
+        // Reprimands - show slots always, fill according to data
+        const verbal = parseInt(data.verbal || 0, 10) || 0;
+        const written = parseInt(data.written || 0, 10) || 0;
+        document.getElementById('modalReprimands').style.display = 'flex';
+        renderReprimandSlots('modalVerbalSlots', 'modalVerbalCount', verbal, 3, 'modal-reprimand-slot--verbal');
+        renderReprimandSlots('modalWrittenSlots', 'modalWrittenCount', written, 2, 'modal-reprimand-slot--written');
     }
 
     // Open modal on table row click
@@ -232,7 +257,9 @@ if (modalOverlay) {
                 clan: this.dataset.clan,
                 note: this.dataset.note,
                 discord: this.dataset.discord,
-                kanji: ''
+                kanji: '',
+                verbal: this.dataset.verbal,
+                written: this.dataset.written
             });
             modalOverlay.classList.add('open');
             document.body.style.overflow = 'hidden';
@@ -249,7 +276,9 @@ if (modalOverlay) {
                 clan: this.dataset.clan,
                 note: this.dataset.note || '',
                 discord: this.dataset.discord,
-                kanji: this.dataset.kanji
+                kanji: this.dataset.kanji,
+                verbal: this.dataset.verbal,
+                written: this.dataset.written
             });
             modalOverlay.classList.add('open');
             document.body.style.overflow = 'hidden';

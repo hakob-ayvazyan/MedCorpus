@@ -876,6 +876,118 @@ tr.vacant-row:hover {
     text-align: center;
 }
 
+/* ===== REPRIMANDS IN MODAL (ВЫГОВОРЫ) ===== */
+.modal-reprimands {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: var(--radius-sm);
+    padding: 12px 14px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    margin-top: 4px;
+}
+
+.modal-reprimands__label {
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--text-muted);
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.modal-reprimands__label i {
+    color: var(--accent-glow);
+    font-size: 0.75rem;
+}
+
+.modal-reprimands__row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 6px;
+}
+
+.modal-reprimands__row:last-child {
+    margin-bottom: 0;
+}
+
+.modal-reprimands__type {
+    font-size: 0.72rem;
+    color: var(--text-muted);
+    min-width: 70px;
+    font-weight: 500;
+}
+
+.modal-reprimands__type--verbal {
+    color: #ff9800;
+}
+
+.modal-reprimands__type--written {
+    color: #ef5350;
+}
+
+.modal-reprimands__slots {
+    display: flex;
+    gap: 6px;
+    flex: 1;
+}
+
+.modal-reprimand-slot {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 1.5px dashed rgba(255, 255, 255, 0.12);
+    background: transparent;
+    position: relative;
+    transition: var(--transition);
+}
+
+.modal-reprimand-slot--verbal {
+    border-color: rgba(255, 152, 0, 0.25);
+}
+
+.modal-reprimand-slot--written {
+    border-color: rgba(239, 83, 80, 0.25);
+}
+
+.modal-reprimand-slot.filled {
+    border-style: solid;
+}
+
+.modal-reprimand-slot--verbal.filled {
+    background: rgba(255, 152, 0, 0.25);
+    border-color: #ff9800;
+    box-shadow: 0 0 8px rgba(255, 152, 0, 0.3);
+}
+
+.modal-reprimand-slot--written.filled {
+    background: rgba(239, 83, 80, 0.25);
+    border-color: #ef5350;
+    box-shadow: 0 0 8px rgba(239, 83, 80, 0.3);
+}
+
+.modal-reprimand-slot.filled::after {
+    content: '\f12a';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    font-size: 0.55rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.modal-reprimands__count {
+    margin-left: auto;
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    font-weight: 500;
+}
+
 /* ===== MODAL ===== */
 .modal-overlay {
     display: none;
